@@ -1,6 +1,10 @@
 # awesome-vibecoding-cn
 
-面向中文读者的 Vibe Coding 资源目录。以下内容由结构化数据确定性生成。
+面向中文读者持续维护的 Vibe Coding 资源目录。正文条目由结构化数据确定性生成，收录范围会随生态发展持续扩充，初始分类和来源不是白名单。
+
+## 参与与维护
+
+欢迎通过 Issue 或 Pull Request 推荐尚未列出的优质文章、项目、教程、产品、社区和研究；如果现有分类无法准确容纳，也可以提出新分类。提交前请阅读[贡献指南](CONTRIBUTING.md)和[内容规范](docs/content-guidelines.md)。维护者与 Agent 可参照[来源地图](docs/sources.md)扩大检索范围，并按[维护手册](docs/maintenance.md)完成核验、生成、测试、审阅、提交与推送。
 
 <!-- AWESOME-VIBE:START -->
 ## 分类目录
