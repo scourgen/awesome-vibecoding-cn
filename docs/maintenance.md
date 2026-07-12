@@ -58,9 +58,11 @@
 
 ## 7. 审阅 diff
 
-- [ ] 运行 `git diff -- README.md data/resources.yaml docs AGENTS.md CONTRIBUTING.md`。
+- [ ] 运行 `git status --short` 识别未跟踪文件，再运行 `git diff --stat`、`git diff -- .` 和 `git diff --check` 审阅整个仓库。
+- [ ] 检查范围至少覆盖根目录文档、`data/`、`scripts/`、`tests/`、`docs/`、`.github/` 及状态中出现的其他路径，不得只看 README 和资源数据。
 - [ ] 确认 README 人工区未被生成器覆盖，标记区与 YAML 一致。
 - [ ] 确认新资源位于正确分类，最近更新顺序和精选标记合理。
+- [ ] 确认生成器、验证器、测试和 GitHub 工作流没有遗漏、意外改动或与数据及文档不一致。
 - [ ] 确认没有误删、重复、跟踪参数、推测日期、机械翻译、营销断言或凭据。
 - [ ] 确认改动中没有混入其他任务或其他贡献者的文件。
 
