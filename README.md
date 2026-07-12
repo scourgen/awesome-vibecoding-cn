@@ -24,16 +24,16 @@
 
 ## 最近更新
 
+- [GitHub Copilot 在 VS Code 的 2026 年 6 月更新](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/) — 官方汇总集成浏览器、并行会话、费用可见性、外部模型提供方和长上下文等更新，适合核对当前代理工作流能力。（GitHub Changelog · 2026-07-08）
+- [JetBrains 团队级 AI 编程治理实践](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) — 官方介绍团队如何统一管理模型、智能体、访问权限、使用分析和成本；其中效果与治理价值属于厂商观点。（JetBrains · 2026-07-07）
+- ⭐ **精选** [微软命令行 AI 编程智能体采用与影响研究](https://arxiv.org/abs/2607.01418) — 研究分析微软内部数万名开发者的早期推广数据，采用者合并 PR 数提高约 24%，但作者明确指出该指标不等同于实际价值。（Emerson Murphy-Hill 等 · 2026-07-01）
+- [V2EX：两年 Vibe Coding 经历与使用方式反思](https://v2ex.com/t/1221657) — 作者结合个人和身边开发者经历，区分完全委托、协同增强与轻量使用，呈现不同能力基础下的收益和风险判断。（SoraStar · 2026-06-20）
 - [AI 编程普及率的信息茧房](https://www.v2ex.com/t/1221461) — 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率，可用于观察实践经验、分歧与具体使用边界。（V2EX · NotAfraidLP · 2026-06-19）
+- [立场论文：现有编程基准与实际开发目标错位](https://arxiv.org/abs/2606.17799) — 作者认为现有评测混合模型、工具链和环境效果，并依赖单一参考解法，建议增加组件级信号与真实工作流评估。（Maria I. Gorinova 等 · 2026-06-16）
+- [Reddit：用确定性脚本替代不必要的模型调用](https://www.reddit.com/r/vibecoding/comments/1u2z798/after_10_years_as_an_engineer_the_thing_id_teach/) — 帖子主张将可重复的解析、校验和转换固化为确定性工具，减少智能体反复消耗上下文和模型调用的成本。（r/vibecoding · 2026-06-11）
+- [V2EX：半年 Vibe Coding 的效率与疲劳体验](https://www.v2ex.com/t/1219408) — 作者记录交付速度提升之外的审查疲劳、成就感下降和规格维护成本，评论区也补充了不同开发者的应对方式。（coderYang · 2026-06-10）
 - ⭐ **精选** [Vibe Coding 生产项目实践讨论](https://linux.do/t/topic/2360067) — 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · eof_karel · 2026-06-10）
 - [一个未能实现的 Vibe Coding Harness](https://linux.do/t/topic/2306363) — 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · Soei · 2026-06-04）
-- [Vibe Coding 进入工作后如何长效维护](https://linux.do/t/topic/2279770) — 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · skyrock · 2026-05-31）
-- ⭐ **精选** [培训 Codex 后工作反而更多了](https://linux.do/t/topic/2268339) — 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · fairyw · 2026-05-29）
-- [Gemini Code Assist 负责任 AI 指南](https://developers.google.com/gemini-code-assist/docs/responsible-ai) — 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核，可用于了解相关方法、背景与工程适用边界。（Google · 2026-05-27）
-- ⭐ **精选** [Gemini CLI 迁移至 Antigravity CLI 公告](https://github.com/google-gemini/gemini-cli/discussions/27274) — 公告确认 2026 年 6 月 18 日起个人免费及 Pro、Ultra 终端体验迁至 Antigravity CLI，企业与 API 使用继续保留。（Google Gemini CLI · 2026-05-19）
-- [中文社区 AI 编程工具实用对比](https://www.v2ex.com/t/1210849) — 用户按当时价格与体验比较 Claude Code、Codex、Cursor、TRAE、通义灵码和 Qoder。（V2EX · fireeeeee · 2026-05-07）
-- [Vibe Coding 从入门到 Harness Engineering](https://linux.do/t/topic/2085611) — 以开源项目自荐形式串联 Prompt、上下文、MCP、Skills、规格驱动开发和 Harness Engineering。（LINUX DO · joytion · 2026-04-30）
-- [Symphony 项目看板智能体编排规范](https://openai.com/index/open-source-codex-orchestration-symphony/) — 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换，可用于了解相关方法、背景与工程适用边界。（OpenAI · 2026-04-27）
 
 ## Agent 技能
 
@@ -41,12 +41,14 @@
 - ⭐ **精选** [Anthropic Agent Skills 官方仓库](https://github.com/anthropics/skills) — 官方示例展示如何用 SKILL.md、脚本和参考资料封装可复用的智能体能力，便于读者核对其组成、用途与适用边界。（Anthropic · 2025-09-22）
 - ⭐ **精选** [Spec Kit 规格驱动开发工具包](https://github.com/github/spec-kit) — 通过原则、规格、计划和任务阶段把模糊想法转成可验证的软件交付流程，便于读者核对其组成、用途与适用边界。（GitHub · 2025-08-21）
 - ⭐ **精选** [GitHub Awesome Copilot 配置合集](https://github.com/github/awesome-copilot) — GitHub 官方维护的指令、提示文件、定制智能体和技能示例导航，便于读者核对其组成、用途与适用边界。（GitHub · 2025-06-11）
+- ⭐ **精选** [Agent Skills 开放规范与参考实现](https://github.com/agentskills/agentskills) — 开放规范定义 SKILL.md 的目录结构、元数据与渐进式加载方式，并提供校验工具和跨智能体实现参考。（Agent Skills）
 - [Claude Code 专业子智能体合集](https://github.com/VoltAgent/awesome-claude-code-subagents) — 提供覆盖开发、测试、安全、运维和产品等岗位的可委派子智能体模板，便于读者核对其组成、用途与适用边界。（VoltAgent · 2025-07-30）
 - [Claude Code Templates 配置工具箱](https://github.com/davila7/claude-code-templates) — 汇集 agents、commands、hooks、MCP 和 settings 模板，并提供配套管理工具。（davila7 · 2025-07-04）
 - [Awesome Claude Code 资源精选](https://github.com/hesreallyhim/awesome-claude-code) — 精选 Claude Code 的 Skills、Agents、Hooks、插件和开发辅助工具。（hesreallyhim · 2025-04-19）
 - [BMAD 多角色敏捷开发方法](https://github.com/bmad-code-org/BMAD-METHOD) — 以分析师、产品经理、架构师和开发者等角色推动结构化的智能体开发生命周期，便于读者核对其组成、用途与适用边界。（BMAD Code · 2025-04-13）
 - [Awesome Cursor Rules 规则集合](https://github.com/PatrickJS/awesome-cursorrules) — 按语言和框架整理 Cursor 项目规则，可用于理解旧版规则生态并迁移到新版目录格式。（PatrickJS · 2024-09-16）
 - [GitHub Copilot 自定义能力速查表](https://docs.github.com/en/copilot/reference/customization-cheat-sheet) — 对比项目指令、提示文件、智能体、技能、钩子和 MCP 的位置与支持范围，便于读者核对其组成、用途与适用边界。（GitHub Docs）
+- [Vercel 跨客户端 Skills 管理工具](https://github.com/vercel-labs/skills) — 提供统一的 npx skills 命令，可为 Codex、OpenCode、Claude Code、Cursor 等客户端查找、安装和更新技能。（Vercel Labs）
 
 ## 开源项目
 
@@ -65,6 +67,7 @@
 - [AutoGen 多智能体应用框架](https://github.com/microsoft/autogen) — 提供智能体、工具、消息和多智能体协作抽象，可用于搭建软件工程代理系统，便于读者核对其能力范围、使用方式与维护入口。（Microsoft · 2023-08-18）
 - [Continue 开源 IDE 编程平台](https://github.com/continuedev/continue) — 支持自定义模型、上下文提供器、规则和智能体工作流，适合自托管与企业定制，便于读者核对其能力范围、使用方式与维护入口。（Continue · 2023-05-24）
 - [Aider 终端 AI 结对编程工具](https://github.com/Aider-AI/aider) — 以 Git、代码地图和终端对话为核心，提供成熟的多模型结对编程工作流，便于读者核对其能力范围、使用方式与维护入口。（Aider · 2023-05-09）
+- [AhaDiff 基于代码差异的复盘学习工具](https://github.com/AGI-is-going-to-arrive/ahadiff) — 本地优先地分析 AI 生成的 Git 差异，将具体改动转成带证据的讲解、测验和复习材料，帮助开发者理解已合入代码。（AhaDiff）
 
 ## 工具
 
@@ -82,8 +85,9 @@
 
 ## 公司与产品
 
-- ⭐ **精选** [Gemini CLI 迁移至 Antigravity CLI 公告](https://github.com/google-gemini/gemini-cli/discussions/27274) — 公告确认 2026 年 6 月 18 日起个人免费及 Pro、Ultra 终端体验迁至 Antigravity CLI，企业与 API 使用继续保留。（Google Gemini CLI · 2026-05-19）
+- ⭐ **精选** [Gemini CLI 迁移至 Antigravity CLI 公告](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) — 公告确认 2026 年 6 月 18 日起个人免费及 Pro、Ultra 终端体验迁至 Antigravity CLI，企业与 API 使用继续保留。（Google Developers Blog · 2026-05-19）
 - ⭐ **精选** [OpenAI Codex 官方开发者入口](https://developers.openai.com/) — 聚合 Codex 产品、开发文档、案例和智能体编程资源的官方入口，便于读者从官方资料核对功能范围与使用入口。（OpenAI）
+- [Qoder AI 编程产品套件概览](https://help.aliyun.com/en/lingma/product-overview/introduction-of-lingma) — 官方说明通义灵码更名后的 IDE、CLI、云端任务、专家子智能体与 Quest 工作流，相关能力属于厂商产品介绍。（Alibaba Cloud · 2026-01-16）
 - [Claude Code 正式可用与 Claude 4](https://www.anthropic.com/news/claude-4) — 记录 Claude Code 正式可用，并介绍后台任务、IDE 集成和代理式开发能力。（Anthropic · 2025-05-22）
 - [Amazon Q Developer 官方文档中心](https://aws.amazon.com/documentation-overview/q-developer/) — 覆盖 IDE 对话、代码解释、修复、测试以及从自然语言生成完整功能的官方资料，便于读者从官方资料核对功能范围与使用入口。（AWS）
 - [Cloudflare Workers AI 平台](https://developers.cloudflare.com/workers-ai/) — 在 Cloudflare GPU 网络运行开放模型，并可结合 AI Gateway 与 Vectorize 构建应用。（Cloudflare）
@@ -98,7 +102,11 @@
 - ⭐ **精选** [Harness Engineering 智能体优先代码库实践](https://openai.com/index/harness-engineering/) — 总结仓库可读性、约束、反馈回路、文档结构和持续熵管理等智能体工程经验，可用于了解相关方法、背景与工程适用边界。（OpenAI · 2026-02-11）
 - ⭐ **精选** [Claude Code 智能体编程最佳实践](https://www.anthropic.com/engineering/claude-code-best-practices) — 系统讲解项目指令、探索与计划、测试驱动开发、上下文管理和独立审查，可用于了解相关方法、背景与工程适用边界。（Anthropic Engineering · 2025-04-18）
 - ⭐ **精选** [别把所有 AI 辅助编程都叫 Vibe Coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) — 区分忽略代码细节的原始 Vibe Coding 与工程师审阅、理解并负责的 AI 辅助开发。（Simon Willison · 2025-03-19）
+- [GitHub Copilot 在 VS Code 的 2026 年 6 月更新](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/) — 官方汇总集成浏览器、并行会话、费用可见性、外部模型提供方和长上下文等更新，适合核对当前代理工作流能力。（GitHub Changelog · 2026-07-08）
+- [JetBrains 团队级 AI 编程治理实践](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) — 官方介绍团队如何统一管理模型、智能体、访问权限、使用分析和成本；其中效果与治理价值属于厂商观点。（JetBrains · 2026-07-07）
+- [百度文心快码 2026 年智能体能力更新日志](https://cloud.baidu.com/doc/COMATE/s/2mjzerjsp) — 1.9.0 版加入异步子智能体、记忆、自动化、插件创建和 Skills 选择器，页面可用于持续追踪后续版本变化。（百度智能云 · 2026-06-01）
 - [Gemini Code Assist 负责任 AI 指南](https://developers.google.com/gemini-code-assist/docs/responsible-ai) — 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核，可用于了解相关方法、背景与工程适用边界。（Google · 2026-05-27）
+- [Sourcegraph 的大型代码库 Agentic Coding 指南](https://sourcegraph.com/blog/agentic-coding) — 文章从大型组织和复杂代码库出发，讨论上下文获取、工具接入与审查边界，补充个人项目之外的工程实践视角。（Matt Tanner · 2026-05-21）
 - [Symphony 项目看板智能体编排规范](https://openai.com/index/open-source-codex-orchestration-symphony/) — 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换，可用于了解相关方法、背景与工程适用边界。（OpenAI · 2026-04-27）
 - [Cursor 如何用自主 Agent 守护代码库](https://cursor.com/blog/security-agents) — 展示持续安全审查、漏洞发现、依赖更新和不变量检查等可复用智能体模板，可用于了解相关方法、背景与工程适用边界。（Cursor · 2026-03-16）
 - [AI 编码实践：从 Vibe Coding 到 SDD](https://zhuanlan.zhihu.com/p/2001605764670833810) — 淘特导购团队复盘从补全、智能体与规则演进到轻量规格驱动开发的工程方案，可用于了解相关方法、背景与工程适用边界。（阿里云开发者）
@@ -124,7 +132,10 @@
 - ⭐ **精选** [Vibe Coding 生产项目实践讨论](https://linux.do/t/topic/2360067) — 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · eof_karel · 2026-06-10）
 - ⭐ **精选** [培训 Codex 后工作反而更多了](https://linux.do/t/topic/2268339) — 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · fairyw · 2026-05-29）
 - ⭐ **精选** [大量生成代码后的线上质量责任](https://www.v2ex.com/t/1208265) — 讨论人工编写测试、拉取请求钩子和独立复核，警惕同一智能体为过测试采用脏实现，可用于观察实践经验、分歧与具体使用边界。（V2EX · kyrieIvring · 2026-04-24）
+- [V2EX：两年 Vibe Coding 经历与使用方式反思](https://v2ex.com/t/1221657) — 作者结合个人和身边开发者经历，区分完全委托、协同增强与轻量使用，呈现不同能力基础下的收益和风险判断。（SoraStar · 2026-06-20）
 - [AI 编程普及率的信息茧房](https://www.v2ex.com/t/1221461) — 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率，可用于观察实践经验、分歧与具体使用边界。（V2EX · NotAfraidLP · 2026-06-19）
+- [Reddit：用确定性脚本替代不必要的模型调用](https://www.reddit.com/r/vibecoding/comments/1u2z798/after_10_years_as_an_engineer_the_thing_id_teach/) — 帖子主张将可重复的解析、校验和转换固化为确定性工具，减少智能体反复消耗上下文和模型调用的成本。（r/vibecoding · 2026-06-11）
+- [V2EX：半年 Vibe Coding 的效率与疲劳体验](https://www.v2ex.com/t/1219408) — 作者记录交付速度提升之外的审查疲劳、成就感下降和规格维护成本，评论区也补充了不同开发者的应对方式。（coderYang · 2026-06-10）
 - [一个未能实现的 Vibe Coding Harness](https://linux.do/t/topic/2306363) — 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · Soei · 2026-06-04）
 - [Vibe Coding 进入工作后如何长效维护](https://linux.do/t/topic/2279770) — 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · skyrock · 2026-05-31）
 - [中文社区 AI 编程工具实用对比](https://www.v2ex.com/t/1210849) — 用户按当时价格与体验比较 Claude Code、Codex、Cursor、TRAE、通义灵码和 Qoder。（V2EX · fireeeeee · 2026-05-07）
@@ -132,14 +143,20 @@
 - [中文开发者都在 Vibe Coding 什么项目](https://linux.do/t/topic/2051569) — 汇集装箱工具、启动页、自动打卡、桌面启动器、小说界面和浏览器插件等真实选题，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · duiguangbin · 2026-04-25）
 - [Vibe Coding 的意义与工程边界](https://v2ex.com/t/1208240) — 高互动讨论主张架构、接口和责任边界由人掌握，AI 负责小步局部实现，可用于观察实践经验、分歧与具体使用边界。（V2EX · chuchen023 · 2026-04-24）
 - [Vibe Coding 一周体验与工程流程](https://www.v2ex.com/t/1203913) — 详细记录原型、业务与权限文档、前后端智能体、人工验证、评审和提交的流程，可用于观察实践经验、分歧与具体使用边界。（V2EX · a526796017 · 2026-04-07）
+- [V2EX：Vibe Coding 迁移旧项目时遗漏隐性逻辑](https://www.v2ex.com/t/1217323) — 讨论提出旧系统的隐藏配置、第三方逻辑和架构约束容易在重构时丢失，适合作为规格梳理与回归验证的反例。（UnYu）
 
 ## 研究
 
+- ⭐ **精选** [微软命令行 AI 编程智能体采用与影响研究](https://arxiv.org/abs/2607.01418) — 研究分析微软内部数万名开发者的早期推广数据，采用者合并 PR 数提高约 24%，但作者明确指出该指标不等同于实际价值。（Emerson Murphy-Hill 等 · 2026-07-01）
+- ⭐ **精选** [AI 编程工具生产力与学习效果元分析](https://arxiv.org/abs/2605.04779) — 元分析汇总 23 项研究和 27 个效应量，发现生产力有中等正向效应且异质性明显，学习效果则未达到统计显著。（Sebastian Maier 等 · 2026-05-06）
 - ⭐ **精选** [SlopCodeBench 长期代码退化基准](https://arxiv.org/abs/2603.24755) — 让智能体连续响应变化需求，衡量代码冗余和结构侵蚀如何随多轮迭代增长，便于核对任务设计、评估方法与结论适用范围。（Gabriel Orlanski 等 · 2026-03-25）
 - ⭐ **精选** [Terminal-Bench 真实终端任务基准](https://arxiv.org/abs/2601.11868) — 以独立环境、人工解法和测试评估智能体完成复杂长时终端工作流的能力，便于核对任务设计、评估方法与结论适用范围。（Mike A. Merrill 等 · 2026-01-17）
 - ⭐ **精选** [SecureAgentBench 安全编码基准](https://arxiv.org/abs/2509.22097) — 用真实漏洞场景的多文件任务同时检查功能、已知漏洞和新引入的安全问题，便于核对任务设计、评估方法与结论适用范围。（Junkai Chen 等 · 2025-09-26）
 - ⭐ **精选** [早期 2025 AI 工具对资深开发者生产力的影响](https://arxiv.org/abs/2507.09089) — 随机对照实验发现特定早期工具让成熟仓库的资深维护者平均变慢，结论不应泛化到所有场景。（Joel Becker 等 · 2025-07-12）
 - ⭐ **精选** [SWE-bench 真实软件工程基准](https://www.swebench.com/original.html) — 要求模型依据真实 GitHub Issue 修改完整仓库并通过测试，奠定现代编程智能体评价方式。（Carlos E. Jimenez 等）
+- [立场论文：现有编程基准与实际开发目标错位](https://arxiv.org/abs/2606.17799) — 作者认为现有评测混合模型、工具链和环境效果，并依赖单一参考解法，建议增加组件级信号与真实工作流评估。（Maria I. Gorinova 等 · 2026-06-16）
+- [Agentic Agile-V 可审计智能体开发框架](https://arxiv.org/abs/2605.20456) — 论文提出 SCOPE-V 生命周期，将规格、约束、编排、证据、演进和验证串联，并在关键节点保留人工审批。（Christopher Koch · 2026-05-19）
+- [Mise en Place 智能体上下文工程方法](https://arxiv.org/abs/2605.05400) — 框架将开发前准备拆为上下文奠基、协作式规格和任务分解三阶段，强调在调用智能体之前先构造可验证的工作环境。（Andrew Zigler · 2026-05-06）
 - [SWE-rebench V2 多语言任务流水线](https://arxiv.org/abs/2602.23866) — 将任务收集扩展到二十种语言和数千个仓库，更贴近真实多语言软件生态，便于核对任务设计、评估方法与结论适用范围。（Ibragim Badertdinov 等 · 2026-02-27）
 - [JAWS-BENCH 编程智能体越狱评估](https://arxiv.org/abs/2510.01359) — 比较不同工作区上下文中的可执行恶意代码攻击，评估智能体包装对越狱风险的放大，便于核对任务设计、评估方法与结论适用范围。（Shoumik Saha 等 · 2025-10-01）
 - [SWE-rebench 持续更新软件工程基准](https://arxiv.org/abs/2505.20411) — 自动从新 GitHub 拉取请求抽取可执行任务，以新鲜数据降低固定榜单污染，便于核对任务设计、评估方法与结论适用范围。（Ibragim Badertdinov 等 · 2025-05-26）

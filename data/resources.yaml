@@ -496,9 +496,9 @@ resources:
   - id: gemini-cli-antigravity-migration
     title_zh: Gemini CLI 迁移至 Antigravity CLI 公告
     title_original: "An important update: Transitioning Gemini CLI to Antigravity CLI"
-    url: https://github.com/google-gemini/gemini-cli/discussions/27274
+    url: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
     category: companies
-    source: Google Gemini CLI
+    source: Google Developers Blog
     published_at: 2026-05-19
     added_at: 2026-07-13
     language: en
@@ -1142,3 +1142,224 @@ resources:
     summary_zh: 随机对照实验发现特定早期工具让成熟仓库的资深维护者平均变慢，结论不应泛化到所有场景。
     tags: [productivity, experiment, open-source]
     featured: true
+
+  - id: agent-skills-specification
+    title_zh: Agent Skills 开放规范与参考实现
+    title_original: Agent Skills Specification
+    url: https://github.com/agentskills/agentskills
+    category: skills
+    source: Agent Skills
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 开放规范定义 SKILL.md 的目录结构、元数据与渐进式加载方式，并提供校验工具和跨智能体实现参考。
+    tags: [skills, specification, interoperability]
+    featured: true
+
+  - id: vercel-skills-cli
+    title_zh: Vercel 跨客户端 Skills 管理工具
+    title_original: skills
+    url: https://github.com/vercel-labs/skills
+    category: skills
+    source: Vercel Labs
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 提供统一的 npx skills 命令，可为 Codex、OpenCode、Claude Code、Cursor 等客户端查找、安装和更新技能。
+    tags: [skills, cli, interoperability]
+    featured: false
+
+  - id: ahadiff
+    title_zh: AhaDiff 基于代码差异的复盘学习工具
+    title_original: AhaDiff
+    url: https://github.com/AGI-is-going-to-arrive/ahadiff
+    category: repos
+    source: AhaDiff
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 本地优先地分析 AI 生成的 Git 差异，将具体改动转成带证据的讲解、测验和复习材料，帮助开发者理解已合入代码。
+    tags: [learning, git, code-review]
+    featured: false
+
+  - id: github-copilot-vscode-june-2026
+    title_zh: GitHub Copilot 在 VS Code 的 2026 年 6 月更新
+    title_original: GitHub Copilot in Visual Studio Code June 2026 releases
+    url: https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/
+    category: articles
+    source: GitHub Changelog
+    published_at: 2026-07-08
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方汇总集成浏览器、并行会话、费用可见性、外部模型提供方和长上下文等更新，适合核对当前代理工作流能力。
+    tags: [copilot, vscode, changelog]
+    featured: false
+
+  - id: baidu-comate-2026-update-log
+    title_zh: 百度文心快码 2026 年智能体能力更新日志
+    title_original: Comate AI IDE 更新日志
+    url: https://cloud.baidu.com/doc/COMATE/s/2mjzerjsp
+    category: articles
+    source: 百度智能云
+    published_at: 2026-06-01
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 1.9.0 版加入异步子智能体、记忆、自动化、插件创建和 Skills 选择器，页面可用于持续追踪后续版本变化。
+    tags: [comate, agents, changelog]
+    featured: false
+
+  - id: qoder-product-suite
+    title_zh: Qoder AI 编程产品套件概览
+    title_original: Qoder CN suite
+    url: https://help.aliyun.com/en/lingma/product-overview/introduction-of-lingma
+    category: companies
+    source: Alibaba Cloud
+    published_at: 2026-01-16
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方说明通义灵码更名后的 IDE、CLI、云端任务、专家子智能体与 Quest 工作流，相关能力属于厂商产品介绍。
+    tags: [qoder, agents, ide]
+    featured: false
+
+  - id: sourcegraph-agentic-coding-large-codebases
+    title_zh: Sourcegraph 的大型代码库 Agentic Coding 指南
+    title_original: "Agentic Coding in 2026: A Practical Guide for Big Code"
+    url: https://sourcegraph.com/blog/agentic-coding
+    category: articles
+    source: Matt Tanner
+    published_at: 2026-05-21
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 文章从大型组织和复杂代码库出发，讨论上下文获取、工具接入与审查边界，补充个人项目之外的工程实践视角。
+    tags: [agentic-coding, context, enterprise]
+    featured: false
+
+  - id: jetbrains-ai-teams-governance
+    title_zh: JetBrains 团队级 AI 编程治理实践
+    title_original: "JetBrains AI for Teams and Organizations: From Fragmented AI Usage to Coordinated Software Development"
+    url: https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/
+    category: articles
+    source: JetBrains
+    published_at: 2026-07-07
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方介绍团队如何统一管理模型、智能体、访问权限、使用分析和成本；其中效果与治理价值属于厂商观点。
+    tags: [governance, enterprise, jetbrains]
+    featured: false
+
+  - id: v2ex-vibe-coding-legacy-migration
+    title_zh: V2EX：Vibe Coding 迁移旧项目时遗漏隐性逻辑
+    title_original: 问个关于 vibe coding 的问题
+    url: https://www.v2ex.com/t/1217323
+    category: community
+    source: UnYu
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 讨论提出旧系统的隐藏配置、第三方逻辑和架构约束容易在重构时丢失，适合作为规格梳理与回归验证的反例。
+    tags: [v2ex, migration, specification]
+    featured: false
+
+  - id: v2ex-vibe-coding-two-year-reflection
+    title_zh: V2EX：两年 Vibe Coding 经历与使用方式反思
+    title_original: vibe coding 两年后，分享下个人想法
+    url: https://v2ex.com/t/1221657
+    category: community
+    source: SoraStar
+    published_at: 2026-06-20
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 作者结合个人和身边开发者经历，区分完全委托、协同增强与轻量使用，呈现不同能力基础下的收益和风险判断。
+    tags: [v2ex, experience, workflow]
+    featured: false
+
+  - id: v2ex-vibe-coding-six-month-experience
+    title_zh: V2EX：半年 Vibe Coding 的效率与疲劳体验
+    title_original: vibe coding 半年有感
+    url: https://www.v2ex.com/t/1219408
+    category: community
+    source: coderYang
+    published_at: 2026-06-10
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 作者记录交付速度提升之外的审查疲劳、成就感下降和规格维护成本，评论区也补充了不同开发者的应对方式。
+    tags: [v2ex, experience, productivity]
+    featured: false
+
+  - id: reddit-deterministic-zero-token-tools
+    title_zh: Reddit：用确定性脚本替代不必要的模型调用
+    title_original: After 10 years as an engineer, the thing I'd teach every vibe coder
+    url: https://www.reddit.com/r/vibecoding/comments/1u2z798/after_10_years_as_an_engineer_the_thing_id_teach/
+    category: community
+    source: r/vibecoding
+    published_at: 2026-06-11
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 帖子主张将可重复的解析、校验和转换固化为确定性工具，减少智能体反复消耗上下文和模型调用的成本。
+    tags: [reddit, tooling, efficiency]
+    featured: false
+
+  - id: microsoft-cli-agent-adoption-study
+    title_zh: 微软命令行 AI 编程智能体采用与影响研究
+    title_original: "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI"
+    url: https://arxiv.org/abs/2607.01418
+    category: research
+    source: Emerson Murphy-Hill 等
+    published_at: 2026-07-01
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 研究分析微软内部数万名开发者的早期推广数据，采用者合并 PR 数提高约 24%，但作者明确指出该指标不等同于实际价值。
+    tags: [productivity, adoption, cli]
+    featured: true
+
+  - id: coding-benchmarks-misaligned
+    title_zh: 立场论文：现有编程基准与实际开发目标错位
+    title_original: "Position: Current Benchmarks are Misaligned with How Developers Use Coding Agents"
+    url: https://arxiv.org/abs/2606.17799
+    category: research
+    source: Maria I. Gorinova 等
+    published_at: 2026-06-16
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 作者认为现有评测混合模型、工具链和环境效果，并依赖单一参考解法，建议增加组件级信号与真实工作流评估。
+    tags: [benchmark, evaluation, methodology]
+    featured: false
+
+  - id: agentic-agile-v
+    title_zh: Agentic Agile-V 可审计智能体开发框架
+    title_original: "Agentic Agile-V: A Lifecycle Framework for Auditable AI Coding Agents"
+    url: https://arxiv.org/abs/2605.20456
+    category: research
+    source: Christopher Koch
+    published_at: 2026-05-19
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 论文提出 SCOPE-V 生命周期，将规格、约束、编排、证据、演进和验证串联，并在关键节点保留人工审批。
+    tags: [workflow, auditability, specification]
+    featured: false
+
+  - id: ai-coding-productivity-meta-analysis
+    title_zh: AI 编程工具生产力与学习效果元分析
+    title_original: "The Impact of AI Coding Tools on Software Development Productivity and Learning: A Meta-Analysis"
+    url: https://arxiv.org/abs/2605.04779
+    category: research
+    source: Sebastian Maier 等
+    published_at: 2026-05-06
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 元分析汇总 23 项研究和 27 个效应量，发现生产力有中等正向效应且异质性明显，学习效果则未达到统计显著。
+    tags: [productivity, learning, meta-analysis]
+    featured: true
+
+  - id: mise-en-place-context-engineering
+    title_zh: Mise en Place 智能体上下文工程方法
+    title_original: "Mise en Place: A Context Engineering Framework for Coding Agents"
+    url: https://arxiv.org/abs/2605.05400
+    category: research
+    source: Andrew Zigler
+    published_at: 2026-05-06
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 框架将开发前准备拆为上下文奠基、协作式规格和任务分解三阶段，强调在调用智能体之前先构造可验证的工作环境。
+    tags: [context-engineering, workflow, specification]
+    featured: false

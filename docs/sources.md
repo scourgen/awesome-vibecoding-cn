@@ -6,33 +6,36 @@
 
 ## 官方与作者来源
 
-种子来源包括 OpenAI、Anthropic、Google、GitHub、Microsoft、AWS、Cloudflare、Vercel、Cursor、Replit、Lovable、国内模型与 AI Coding 厂商的官方文档、工程博客、更新日志、安全公告，以及独立作者的原始博客。
+种子来源包括 OpenAI、Anthropic、Google、GitHub、Microsoft、AWS、Cloudflare、Vercel、Sourcegraph、JetBrains、Cursor、Replit、Lovable、国内模型与 AI Coding 厂商的官方文档、工程博客、更新日志、安全公告，以及独立作者的原始博客。
 
 推荐搜索式：
 
 ```text
 site:官方域名 (agent OR coding OR Codex OR "vibe coding") after:YYYY-MM-DD
 site:官方域名 (release OR changelog OR security OR benchmark) after:YYYY-MM-DD
+site:sourcegraph.com/blog ("coding agent" OR "agentic coding" OR "large codebase") after:YYYY-MM-DD
+site:blog.jetbrains.com (Junie OR "coding agent" OR ACP OR benchmark) after:YYYY-MM-DD
 "项目名" (announcement OR documentation OR migration OR deprecation)
 ```
 
-限制：官方页面最适合核验产品状态，但其中的性能、效率、市场地位和安全宣称仍属于厂商表述。文档可能静默更新；记录可见发布日期或核验日期，必要时查公告或 Release 交叉确认。
+限制：官方页面最适合核验产品状态，但其中的性能、效率、市场地位和安全宣称仍属于厂商表述。文档可能静默更新；记录可见发布日期或核验日期，必要时查公告或 Release 交叉确认。Sourcegraph 与 JetBrains 的文章可能同时包含工程经验、产品定位或自有基准结论，应分开转述并保留样本、评测周期与厂商归属。
 
 ## 代码托管与项目生态
 
-种子来源包括 GitHub 仓库、Releases、Discussions、Topics、Trending，研究代码与数据集仓库，以及项目官方组织页。
+种子来源包括 GitHub 仓库、Releases、Discussions、Topics、Trending，研究代码与数据集仓库，项目官方组织页，以及 Agent Skills 官方规范与参考实现。规范站和实现仓库可交叉核对格式演进、校验工具与客户端兼容性。
 
 推荐搜索式：
 
 ```text
 site:github.com ("agent skills" OR "coding agent" OR "vibe coding")
+site:agentskills.io (specification OR "client implementation" OR validation)
 site:github.com/topics (ai-coding OR coding-agent OR llm-agent)
 site:github.com 项目名 (releases OR discussions OR security)
 ```
 
 检索时查看 README、LICENSE、最近 Release、提交与 Issue/Discussion 状态，区分真正的上游仓库、镜像、Fork 和同名项目。
 
-限制：Star 和 Trending 只能作为发现信号，不等于质量；若记录 Star、下载量或活跃度，必须注明核验日期。仓库创建时间不一定等于产品发布日期，未知发布日期应留空。
+限制：Star 和 Trending 只能作为发现信号，不等于质量；若记录 Star、下载量或活跃度，必须注明核验日期。仓库创建时间不一定等于产品发布日期，未知发布日期应留空。规范页面可能原地更新且不标发布日期，应引用规范页本身并记录核验日期，不从仓库创建时间推测规范发布时间。
 
 ## 中文社区与中文内容
 
