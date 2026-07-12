@@ -26,7 +26,7 @@
 - [Vibe Coding 进入工作后如何长效维护](https://linux.do/t/topic/2279770) — 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程。（LINUX DO · skyrock · 2026-05-31）
 - ⭐ **精选** [培训 Codex 后工作反而更多了](https://linux.do/t/topic/2268339) — 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议。（LINUX DO · fairyw · 2026-05-29）
 - [Gemini Code Assist 负责任 AI 指南](https://developers.google.com/gemini-code-assist/docs/responsible-ai) — 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核。（Google · 2026-05-27）
-- [Vibe Coding 难解音画同步问题](https://v2ex.com/t/1215040) — 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。（V2EX · dsd2077 · 2026-05-24）
+- [Vibe Coding 难解音画同步问题](https://www.v2ex.com/t/1215040) — 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。（V2EX · dsd2077 · 2026-05-24）
 - ⭐ **精选** [Gemini CLI 迁移至 Antigravity CLI 公告](https://github.com/google-gemini/gemini-cli/discussions/27274) — 公告确认 2026 年 6 月 18 日起个人免费及 Pro、Ultra 终端体验迁至 Antigravity CLI，企业与 API 使用继续保留。（Google Gemini CLI · 2026-05-19）
 - [中文社区 AI 编程工具实用对比](https://www.v2ex.com/t/1210849) — 用户按当时价格与体验比较 Claude Code、Codex、Cursor、TRAE、通义灵码和 Qoder。（V2EX · fireeeeee · 2026-05-07）
 - [Vibe Coding 从入门到 Harness Engineering](https://linux.do/t/topic/2085611) — 以开源项目自荐形式串联 Prompt、上下文、MCP、Skills、规格驱动开发和 Harness Engineering。（LINUX DO · joytion · 2026-04-30）
@@ -123,7 +123,7 @@
 - [AI 编程普及率的信息茧房](https://www.v2ex.com/t/1221461) — 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率。（V2EX · NotAfraidLP · 2026-06-19）
 - [一个未能实现的 Vibe Coding Harness](https://linux.do/t/topic/2306363) — 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论。（LINUX DO · Soei · 2026-06-04）
 - [Vibe Coding 进入工作后如何长效维护](https://linux.do/t/topic/2279770) — 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程。（LINUX DO · skyrock · 2026-05-31）
-- [Vibe Coding 难解音画同步问题](https://v2ex.com/t/1215040) — 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。（V2EX · dsd2077 · 2026-05-24）
+- [Vibe Coding 难解音画同步问题](https://www.v2ex.com/t/1215040) — 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。（V2EX · dsd2077 · 2026-05-24）
 - [中文社区 AI 编程工具实用对比](https://www.v2ex.com/t/1210849) — 用户按当时价格与体验比较 Claude Code、Codex、Cursor、TRAE、通义灵码和 Qoder。（V2EX · fireeeeee · 2026-05-07）
 - [Vibe Coding 从入门到 Harness Engineering](https://linux.do/t/topic/2085611) — 以开源项目自荐形式串联 Prompt、上下文、MCP、Skills、规格驱动开发和 Harness Engineering。（LINUX DO · joytion · 2026-04-30）
 - [中文开发者都在 Vibe Coding 什么项目](https://linux.do/t/topic/2051569) — 汇集装箱工具、启动页、自动打卡、桌面启动器、小说界面和浏览器插件等真实选题。（LINUX DO · duiguangbin · 2026-04-25）
