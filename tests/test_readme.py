@@ -42,6 +42,26 @@ def test_render_includes_clickable_directory_for_known_and_open_categories() -> 
     assert "- [Case Studies](#case-studies)" in rendered
 
 
+def test_render_includes_deterministic_catalog_metadata() -> None:
+    resource = load_resources(Path("data/resources.yaml"))[0]
+    older = replace(resource, id="older", added_at=date(2026, 7, 1))
+    newer = replace(resource, id="newer", added_at=date(2026, 7, 12))
+
+    rendered = render_resources([newer, older])
+
+    assert "**最后更新时间：2026-07-12**" in rendered
+    assert "收录原则：公开可核验的原始 URL、中文摘要、人工审核。" in rendered
+
+
+def test_render_empty_catalog_has_explicit_metadata_and_no_date_guess() -> None:
+    rendered = render_resources([])
+
+    assert "**最后更新时间：暂无资源**" in rendered
+    assert "收录原则：公开可核验的原始 URL、中文摘要、人工审核。" in rendered
+    assert "## 分类目录" in rendered
+    assert "## 最近更新" in rendered
+
+
 def test_render_recent_updates_uses_ten_latest_known_dates() -> None:
     resource = load_resources(Path("data/resources.yaml"))[0]
     dated = [
@@ -115,12 +135,14 @@ def test_render_formats_known_and_unknown_publication_dates() -> None:
 
     assert (
         "- ⭐ **精选** [Claude Code 开源仓库](https://github.com/anthropics/claude-code) — "
-        "Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。"
+        "Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道，"
+        "便于读者核对其功能范围、配置方式与适用场景。"
         "（Anthropic）"
     ) in rendered
     assert (
         "- [有日期资源](https://example.com/dated) — "
-        "Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。"
+        "Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道，"
+        "便于读者核对其功能范围、配置方式与适用场景。"
         "（Anthropic · 2026-01-02）"
     ) in rendered
     tools_section = rendered.split("## 工具\n", 1)[1]
@@ -139,3 +161,24 @@ def test_check_mode_detects_and_default_mode_repairs_drift(tmp_path: Path, monke
     assert build_readme.main(["--check"]) == 1
     assert build_readme.main([]) == 0
     assert build_readme.main(["--check"]) == 0
+
+
+def test_build_cli_rejects_invalid_catalog_without_rendering(
+    tmp_path: Path, monkeypatch, capsys
+) -> None:
+    readme = tmp_path / "README.md"
+    data = tmp_path / "resources.yaml"
+    original = "# Catalog\n\n<!-- AWESOME-VIBE:START -->\nold\n<!-- AWESOME-VIBE:END -->\n"
+    readme.write_text(original, encoding="utf-8")
+    data.write_text(
+        "resources:\n  - id: 123\n    featured: 'false'\n    tags: example\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(build_readme, "README_PATH", readme)
+    monkeypatch.setattr(build_readme, "DATA_PATH", data)
+
+    assert build_readme.main([]) == 1
+    output = capsys.readouterr().out
+    assert "id must be a non-empty string" in output
+    assert "Traceback" not in output
+    assert readme.read_text(encoding="utf-8") == original

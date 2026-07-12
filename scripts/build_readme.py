@@ -8,7 +8,7 @@ from datetime import date
 from pathlib import Path
 from typing import Sequence
 
-from scripts.resource_model import Resource, load_resources
+from scripts.resource_model import CatalogFormatError, Resource, load_resources, validate_resources
 
 START_MARKER = "<!-- AWESOME-VIBE:START -->"
 END_MARKER = "<!-- AWESOME-VIBE:END -->"
@@ -68,6 +68,13 @@ def _render_resource(resource: Resource) -> str:
 
 
 def render_resources(resources: list[Resource]) -> str:
+    last_updated = max((resource.added_at for resource in resources), default=None)
+    updated_label = last_updated.isoformat() if last_updated is not None else "暂无资源"
+    metadata = [
+        f"**最后更新时间：{updated_label}**",
+        "",
+        "收录原则：公开可核验的原始 URL、中文摘要、人工审核。",
+    ]
     categories = sorted({resource.category for resource in resources}, key=_category_sort_key)
     directory = ["## 分类目录", ""]
     directory.extend(
@@ -95,7 +102,9 @@ def render_resources(resources: list[Resource]) -> str:
         lines = [f"## {label}", ""]
         lines.extend(_render_resource(resource) for resource in category_resources)
         sections.append("\n".join(lines))
-    return "\n\n".join(["\n".join(directory), "\n".join(recent), *sections]) + "\n"
+    return "\n\n".join(
+        ["\n".join(metadata), "\n".join(directory), "\n".join(recent), *sections]
+    ) + "\n"
 
 
 def replace_generated_section(readme: str, rendered: str) -> str:
@@ -127,8 +136,18 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--check", action="store_true", help="fail if README.md is out of sync")
     args = parser.parse_args(argv)
 
-    current = README_PATH.read_text(encoding="utf-8")
-    expected = replace_generated_section(current, render_resources(load_resources(DATA_PATH)))
+    try:
+        resources = load_resources(DATA_PATH)
+        errors = validate_resources(resources)
+        if errors:
+            for error in errors:
+                print(error)
+            return 1
+        current = README_PATH.read_text(encoding="utf-8")
+    except (CatalogFormatError, OSError) as error:
+        print(f"Catalog error: {error}")
+        return 1
+    expected = replace_generated_section(current, render_resources(resources))
     if args.check:
         if current != expected:
             print("README.md is out of sync; run python -m scripts.build_readme")

@@ -53,7 +53,7 @@
 ### 4. 中文标题与摘要
 
 - `title_zh` 清楚表达内容对象，不追求逐字翻译；产品名、项目名和必要术语保留原文。
-- `summary_zh` 独立撰写 40—120 个中文字符，说明资源解决什么问题、提供什么证据或为何值得读，以句号结尾。
+- `summary_zh` 独立撰写；按 `summary_zh.strip()` 的 Python Unicode code point 总数计为 40—120（含中英文、空格与标点），说明资源解决什么问题、提供什么证据或为何值得读，以句号结尾。
 - 禁用“重磅”“震撼”“颠覆”“史上最强”等空泛营销词，不大段翻译或拼接原文，不伪造引语。
 - 事实、观点和厂商宣称在一句摘要内也要保持边界；互动数、Star 数等会变化的数字必须附核验日期。
 - 更完整的写作和引用规则见 `docs/content-guidelines.md`。
@@ -97,7 +97,7 @@ python -m ruff check .
 git diff --check
 ```
 
-`scripts.validate` 检查必填字段、ID、规范化 URL、HTTPS、日期、中文标题和摘要句号；`build_readme --check` 检查 README 与 YAML 同步。网络链接可用性还需要按 `docs/maintenance.md` 人工或使用仓库配置的链接检查器核验，不能由 schema 测试替代。
+`scripts.validate` 检查必填字段、类型、ID、规范化 URL、HTTPS、日期、中文标题以及摘要长度和句号；`build_readme --check` 检查 README 与 YAML 同步。网络链接可用性还需要按 `docs/maintenance.md` 人工或使用仓库配置的链接检查器核验，不能由 schema 测试替代。
 
 ### 8. 审阅 diff
 

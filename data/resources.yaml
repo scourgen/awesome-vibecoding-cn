@@ -8,7 +8,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。
+    summary_zh: Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道，便于读者核对其功能范围、配置方式与适用场景。
     tags: [agent, cli]
     featured: true
 
@@ -21,7 +21,7 @@ resources:
     published_at: 2025-10-09
     added_at: 2026-07-13
     language: en
-    summary_zh: 将头脑风暴、测试驱动开发、系统调试、评审和验证组织成可组合的强约束技能。
+    summary_zh: 将头脑风暴、测试驱动开发、系统调试、评审和验证组织成可组合的强约束技能，便于读者核对其组成、用途与适用边界。
     tags: [skills, workflow, tdd]
     featured: true
 
@@ -34,7 +34,7 @@ resources:
     published_at: 2025-06-11
     added_at: 2026-07-13
     language: en
-    summary_zh: GitHub 官方维护的指令、提示文件、定制智能体和技能示例导航。
+    summary_zh: GitHub 官方维护的指令、提示文件、定制智能体和技能示例导航，便于读者核对其组成、用途与适用边界。
     tags: [copilot, skills, prompts]
     featured: true
 
@@ -86,7 +86,7 @@ resources:
     published_at: 2025-07-30
     added_at: 2026-07-13
     language: en
-    summary_zh: 提供覆盖开发、测试、安全、运维和产品等岗位的可委派子智能体模板。
+    summary_zh: 提供覆盖开发、测试、安全、运维和产品等岗位的可委派子智能体模板，便于读者核对其组成、用途与适用边界。
     tags: [claude-code, subagents, roles]
     featured: false
 
@@ -99,7 +99,7 @@ resources:
     published_at: 2025-08-21
     added_at: 2026-07-13
     language: en
-    summary_zh: 通过原则、规格、计划和任务阶段把模糊想法转成可验证的软件交付流程。
+    summary_zh: 通过原则、规格、计划和任务阶段把模糊想法转成可验证的软件交付流程，便于读者核对其组成、用途与适用边界。
     tags: [sdd, specifications, workflow]
     featured: true
 
@@ -112,7 +112,7 @@ resources:
     published_at: 2025-04-13
     added_at: 2026-07-13
     language: en
-    summary_zh: 以分析师、产品经理、架构师和开发者等角色推动结构化的智能体开发生命周期。
+    summary_zh: 以分析师、产品经理、架构师和开发者等角色推动结构化的智能体开发生命周期，便于读者核对其组成、用途与适用边界。
     tags: [agents, agile, workflow]
     featured: false
 
@@ -125,7 +125,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 对比项目指令、提示文件、智能体、技能、钩子和 MCP 的位置与支持范围。
+    summary_zh: 对比项目指令、提示文件、智能体、技能、钩子和 MCP 的位置与支持范围，便于读者核对其组成、用途与适用边界。
     tags: [copilot, instructions, mcp]
     featured: false
 
@@ -138,7 +138,7 @@ resources:
     published_at: 2025-04-30
     added_at: 2026-07-13
     language: en
-    summary_zh: 提供终端优先的多模型编程智能体、完整交互界面和可扩展提供商支持。
+    summary_zh: 提供终端优先的多模型编程智能体、完整交互界面和可扩展提供商支持，便于读者核对其能力范围、使用方式与维护入口。
     tags: [agent, cli, open-source]
     featured: true
 
@@ -151,7 +151,7 @@ resources:
     published_at: 2025-09-22
     added_at: 2026-07-13
     language: en
-    summary_zh: 官方示例展示如何用 SKILL.md、脚本和参考资料封装可复用的智能体能力。
+    summary_zh: 官方示例展示如何用 SKILL.md、脚本和参考资料封装可复用的智能体能力，便于读者核对其组成、用途与适用边界。
     tags: [skills, agents, official]
     featured: true
 
@@ -190,7 +190,7 @@ resources:
     published_at: 2024-03-13
     added_at: 2026-07-13
     language: en
-    summary_zh: 让智能体通过代码编辑、终端和浏览器完成软件工程任务，并支持本地或平台部署。
+    summary_zh: 让智能体通过代码编辑、终端和浏览器完成软件工程任务，并支持本地或平台部署，便于读者核对其能力范围、使用方式与维护入口。
     tags: [agent, software-engineering, platform]
     featured: true
 
@@ -203,7 +203,7 @@ resources:
     published_at: 2024-07-06
     added_at: 2026-07-13
     language: en
-    summary_zh: 在编辑器内提供可审批的读取、修改、命令执行和验证流程，并支持多模型。
+    summary_zh: 在编辑器内提供可审批的读取、修改、命令执行和验证流程，并支持多模型，便于读者核对其能力范围、使用方式与维护入口。
     tags: [agent, vscode, open-source]
     featured: false
 
@@ -216,7 +216,7 @@ resources:
     published_at: 2024-08-23
     added_at: 2026-07-13
     language: en
-    summary_zh: 现由 AAIF 维护的可扩展开源智能体，可安装依赖、编辑、执行和测试代码。
+    summary_zh: 现由 AAIF 维护的可扩展开源智能体，可安装依赖、编辑、执行和测试代码，便于读者核对其能力范围、使用方式与维护入口。
     tags: [agent, cli, aaif]
     featured: false
 
@@ -229,7 +229,7 @@ resources:
     published_at: 2023-05-09
     added_at: 2026-07-13
     language: en
-    summary_zh: 以 Git、代码地图和终端对话为核心，提供成熟的多模型结对编程工作流。
+    summary_zh: 以 Git、代码地图和终端对话为核心，提供成熟的多模型结对编程工作流，便于读者核对其能力范围、使用方式与维护入口。
     tags: [pair-programming, git, cli]
     featured: false
 
@@ -242,7 +242,7 @@ resources:
     published_at: 2023-05-24
     added_at: 2026-07-13
     language: en
-    summary_zh: 支持自定义模型、上下文提供器、规则和智能体工作流，适合自托管与企业定制。
+    summary_zh: 支持自定义模型、上下文提供器、规则和智能体工作流，适合自托管与企业定制，便于读者核对其能力范围、使用方式与维护入口。
     tags: [ide, agent, self-hosted]
     featured: false
 
@@ -268,7 +268,7 @@ resources:
     published_at: 2024-04-02
     added_at: 2026-07-13
     language: en
-    summary_zh: 将真实 Issue、终端环境和模型连接起来，自动定位、修改并测试软件修复。
+    summary_zh: 将真实 Issue、终端环境和模型连接起来，自动定位、修改并测试软件修复，便于读者核对其能力范围、使用方式与维护入口。
     tags: [swe-bench, agent, research]
     featured: false
 
@@ -281,7 +281,7 @@ resources:
     published_at: 2023-08-18
     added_at: 2026-07-13
     language: en
-    summary_zh: 提供智能体、工具、消息和多智能体协作抽象，可用于搭建软件工程代理系统。
+    summary_zh: 提供智能体、工具、消息和多智能体协作抽象，可用于搭建软件工程代理系统，便于读者核对其能力范围、使用方式与维护入口。
     tags: [multi-agent, framework, microsoft]
     featured: false
 
@@ -294,7 +294,7 @@ resources:
     published_at: 2024-07-13
     added_at: 2026-07-13
     language: en
-    summary_zh: 将代码库整理为适合模型输入的单文件，并提供过滤、令牌统计和安全检查。
+    summary_zh: 将代码库整理为适合模型输入的单文件，并提供过滤、令牌统计和安全检查，便于读者核对其能力范围、使用方式与维护入口。
     tags: [context, repository, cli]
     featured: false
 
@@ -307,7 +307,7 @@ resources:
     published_at: 2025-03-23
     added_at: 2026-07-13
     language: en
-    summary_zh: 借助语言服务器为编程智能体提供符号级导航、语义检索和精确编辑。
+    summary_zh: 借助语言服务器为编程智能体提供符号级导航、语义检索和精确编辑，便于读者核对其能力范围、使用方式与维护入口。
     tags: [mcp, language-server, context]
     featured: false
 
@@ -320,7 +320,7 @@ resources:
     published_at: 2025-03-26
     added_at: 2026-07-13
     language: en
-    summary_zh: 通过 MCP 注入特定版本的官方库文档，减少过期接口和虚构用法。
+    summary_zh: 通过 MCP 注入特定版本的官方库文档，减少过期接口和虚构用法，便于读者核对其能力范围、使用方式与维护入口。
     tags: [mcp, documentation, context]
     featured: false
 
@@ -346,7 +346,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 介绍项目规则、用户规则、记忆、触发类型和嵌套目录的当前官方机制。
+    summary_zh: 介绍项目规则、用户规则、记忆、触发类型和嵌套目录的当前官方机制，便于读者核对其功能范围、配置方式与适用场景。
     tags: [cursor, rules, ide]
     featured: false
 
@@ -372,7 +372,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 使用 SKILL.md、脚本、模板和参考资料封装复杂流程，并按需渐进加载内容。
+    summary_zh: 使用 SKILL.md、脚本、模板和参考资料封装复杂流程，并按需渐进加载内容，便于读者核对其功能范围、配置方式与适用场景。
     tags: [windsurf, skills, ide]
     featured: false
 
@@ -398,7 +398,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: zh
-    summary_zh: 说明项目规则目录及手动、模型判断、始终启用和文件匹配四类触发方式。
+    summary_zh: 说明项目规则目录及手动、模型判断、始终启用和文件匹配四类触发方式，便于读者核对其功能范围、配置方式与适用场景。
     tags: [lingma, rules, ide]
     featured: false
 
@@ -424,7 +424,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 字节系 AI 原生开发环境入口，面向个人开发者提供智能体式编码体验。
+    summary_zh: 字节系 AI 原生开发环境入口，面向个人开发者提供智能体式编码体验，便于读者核对其功能范围、配置方式与适用场景。
     tags: [trae, ide, product]
     featured: false
 
@@ -476,7 +476,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 聚合 Codex 产品、开发文档、案例和智能体编程资源的官方入口。
+    summary_zh: 聚合 Codex 产品、开发文档、案例和智能体编程资源的官方入口，便于读者从官方资料核对功能范围与使用入口。
     tags: [codex, openai, official]
     featured: true
 
@@ -515,7 +515,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 介绍异步处理 Issue、在独立环境编码并创建草稿拉取请求的云端智能体。
+    summary_zh: 介绍异步处理 Issue、在独立环境编码并创建草稿拉取请求的云端智能体，便于读者从官方资料核对功能范围与使用入口。
     tags: [copilot, cloud-agent, github]
     featured: false
 
@@ -528,7 +528,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 覆盖 IDE 对话、代码解释、修复、测试以及从自然语言生成完整功能的官方资料。
+    summary_zh: 覆盖 IDE 对话、代码解释、修复、测试以及从自然语言生成完整功能的官方资料，便于读者从官方资料核对功能范围与使用入口。
     tags: [amazon-q, aws, ide]
     featured: false
 
@@ -567,7 +567,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 从自然语言生成界面、落地页和全栈应用，并可直接衔接 Vercel 部署。
+    summary_zh: 从自然语言生成界面、落地页和全栈应用，并可直接衔接 Vercel 部署，便于读者从官方资料核对功能范围与使用入口。
     tags: [v0, app-builder, vercel]
     featured: false
 
@@ -580,7 +580,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 生成前端、后端、数据库、认证和集成，并支持 GitHub 同步与部署。
+    summary_zh: 生成前端、后端、数据库、认证和集成，并支持 GitHub 同步与部署，便于读者从官方资料核对功能范围与使用入口。
     tags: [lovable, app-builder, full-stack]
     featured: false
 
@@ -593,7 +593,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 在云端从想法生成、运行、调试并发布应用，覆盖从编码到托管的一体化路线。
+    summary_zh: 在云端从想法生成、运行、调试并发布应用，覆盖从编码到托管的一体化路线，便于读者从官方资料核对功能范围与使用入口。
     tags: [replit, app-builder, cloud]
     featured: false
 
@@ -606,7 +606,7 @@ resources:
     published_at: 2025-04-18
     added_at: 2026-07-13
     language: en
-    summary_zh: 系统讲解项目指令、探索与计划、测试驱动开发、上下文管理和独立审查。
+    summary_zh: 系统讲解项目指令、探索与计划、测试驱动开发、上下文管理和独立审查，可用于了解相关方法、背景与工程适用边界。
     tags: [claude-code, best-practices, workflow]
     featured: true
 
@@ -619,7 +619,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 分析测试缺陷和数据污染如何削弱榜单区分度，提醒读者谨慎解读单一基准。
+    summary_zh: 分析测试缺陷和数据污染如何削弱榜单区分度，提醒读者谨慎解读单一基准，可用于了解相关方法、背景与工程适用边界。
     tags: [swe-bench, evaluation, openai]
     featured: false
 
@@ -632,7 +632,7 @@ resources:
     published_at: 2026-02-11
     added_at: 2026-07-13
     language: en
-    summary_zh: 总结仓库可读性、约束、反馈回路、文档结构和持续熵管理等智能体工程经验。
+    summary_zh: 总结仓库可读性、约束、反馈回路、文档结构和持续熵管理等智能体工程经验，可用于了解相关方法、背景与工程适用边界。
     tags: [codex, harness, engineering]
     featured: true
 
@@ -645,7 +645,7 @@ resources:
     published_at: 2026-04-27
     added_at: 2026-07-13
     language: en
-    summary_zh: 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换。
+    summary_zh: 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换，可用于了解相关方法、背景与工程适用边界。
     tags: [codex, orchestration, multi-agent]
     featured: false
 
@@ -671,7 +671,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: zh
-    summary_zh: 淘特导购团队复盘从补全、智能体与规则演进到轻量规格驱动开发的工程方案。
+    summary_zh: 淘特导购团队复盘从补全、智能体与规则演进到轻量规格驱动开发的工程方案，可用于了解相关方法、背景与工程适用边界。
     tags: [sdd, case-study, enterprise]
     featured: false
 
@@ -684,7 +684,7 @@ resources:
     published_at: 2026-03-16
     added_at: 2026-07-13
     language: en
-    summary_zh: 展示持续安全审查、漏洞发现、依赖更新和不变量检查等可复用智能体模板。
+    summary_zh: 展示持续安全审查、漏洞发现、依赖更新和不变量检查等可复用智能体模板，可用于了解相关方法、背景与工程适用边界。
     tags: [security, cursor, agents]
     featured: false
 
@@ -697,7 +697,7 @@ resources:
     published_at: 2026-05-27
     added_at: 2026-07-13
     language: en
-    summary_zh: 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核。
+    summary_zh: 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核，可用于了解相关方法、背景与工程适用边界。
     tags: [gemini, responsible-ai, safety]
     featured: false
 
@@ -710,7 +710,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 覆盖密钥防泄漏、行级安全、数据库、代码和依赖扫描以及发布前检查。
+    summary_zh: 覆盖密钥防泄漏、行级安全、数据库、代码和依赖扫描以及发布前检查，可用于了解相关方法、背景与工程适用边界。
     tags: [lovable, security, app-builder]
     featured: false
 
@@ -723,7 +723,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 划分平台、智能体、开发环境、已发布应用和用户各自承担的安全责任。
+    summary_zh: 划分平台、智能体、开发环境、已发布应用和用户各自承担的安全责任，可用于了解相关方法、背景与工程适用边界。
     tags: [replit, security, governance]
     featured: false
 
@@ -749,7 +749,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 展示代码迁移、安全扫描、拉取请求审查、前端构建、测试和自动化等任务模式。
+    summary_zh: 展示代码迁移、安全扫描、拉取请求审查、前端构建、测试和自动化等任务模式，便于按步骤理解流程、验证方法与适用场景。
     tags: [codex, examples, workflow]
     featured: false
 
@@ -762,7 +762,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 官方说明安装、登录、系统要求、更新方式和首次运行终端任务的步骤。
+    summary_zh: 官方说明安装、登录、系统要求、更新方式和首次运行终端任务的步骤，便于按步骤理解流程、验证方法与适用场景。
     tags: [claude-code, quickstart, cli]
     featured: false
 
@@ -788,7 +788,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 官方整理可直接复用的项目指令、提示文件和定制智能体实例。
+    summary_zh: 官方整理可直接复用的项目指令、提示文件和定制智能体实例，便于按步骤理解流程、验证方法与适用场景。
     tags: [copilot, examples, customization]
     featured: false
 
@@ -801,7 +801,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 从需求澄清、用户旅程和组件化构建讲到版本控制与逐步迭代。
+    summary_zh: 从需求澄清、用户旅程和组件化构建讲到版本控制与逐步迭代，便于按步骤理解流程、验证方法与适用场景。
     tags: [lovable, prompting, product]
     featured: false
 
@@ -814,7 +814,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 通过完整示例演示从提示、数据库和登录到预览及发布的浏览器开发流程。
+    summary_zh: 通过完整示例演示从提示、数据库和登录到预览及发布的浏览器开发流程，便于按步骤理解流程、验证方法与适用场景。
     tags: [bolt, quickstart, app-builder]
     featured: false
 
@@ -827,7 +827,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: zh
-    summary_zh: 官方讲解需求拆分、上下文选择、快照回退以及测试的生成、运行与修复。
+    summary_zh: 官方讲解需求拆分、上下文选择、快照回退以及测试的生成、运行与修复，便于按步骤理解流程、验证方法与适用场景。
     tags: [lingma, testing, tutorial]
     featured: false
 
@@ -840,7 +840,7 @@ resources:
     published_at: 2026-02-28
     added_at: 2026-07-13
     language: zh
-    summary_zh: 演示从需求到代码、多智能体拆解、命令执行、验证和迭代的完整流程。
+    summary_zh: 演示从需求到代码、多智能体拆解、命令执行、验证和迭代的完整流程，便于按步骤理解流程、验证方法与适用场景。
     tags: [comate, agents, tutorial]
     featured: false
 
@@ -853,7 +853,7 @@ resources:
     published_at:
     added_at: 2026-07-13
     language: en
-    summary_zh: 从前端、后端、HTTPS、认证和输入验证到持续维护逐项检查生成式应用。
+    summary_zh: 从前端、后端、HTTPS、认证和输入验证到持续维护逐项检查生成式应用，便于按步骤理解流程、验证方法与适用场景。
     tags: [security, checklist, replit]
     featured: false
 
@@ -879,7 +879,7 @@ resources:
     published_at: 2026-05-31
     added_at: 2026-07-13
     language: zh
-    summary_zh: 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程。
+    summary_zh: 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程，可用于观察实践经验、分歧与具体使用边界。
     tags: [linux-do, maintenance, production]
     featured: false
 
@@ -892,7 +892,7 @@ resources:
     published_at: 2026-04-25
     added_at: 2026-07-13
     language: zh
-    summary_zh: 汇集装箱工具、启动页、自动打卡、桌面启动器、小说界面和浏览器插件等真实选题。
+    summary_zh: 汇集装箱工具、启动页、自动打卡、桌面启动器、小说界面和浏览器插件等真实选题，可用于观察实践经验、分歧与具体使用边界。
     tags: [linux-do, showcase, ideas]
     featured: false
 
@@ -905,7 +905,7 @@ resources:
     published_at: 2026-05-29
     added_at: 2026-07-13
     language: zh
-    summary_zh: 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议。
+    summary_zh: 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议，可用于观察实践经验、分歧与具体使用边界。
     tags: [linux-do, workplace, productivity]
     featured: true
 
@@ -918,7 +918,7 @@ resources:
     published_at: 2026-06-04
     added_at: 2026-07-13
     language: zh
-    summary_zh: 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论。
+    summary_zh: 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论，可用于观察实践经验、分歧与具体使用边界。
     tags: [linux-do, harness, failure]
     featured: false
 
@@ -931,7 +931,7 @@ resources:
     published_at: 2026-06-10
     added_at: 2026-07-13
     language: zh
-    summary_zh: 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审。
+    summary_zh: 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审，可用于观察实践经验、分歧与具体使用边界。
     tags: [linux-do, production, testing]
     featured: true
 
@@ -944,7 +944,7 @@ resources:
     published_at: 2026-04-07
     added_at: 2026-07-13
     language: zh
-    summary_zh: 详细记录原型、业务与权限文档、前后端智能体、人工验证、评审和提交的流程。
+    summary_zh: 详细记录原型、业务与权限文档、前后端智能体、人工验证、评审和提交的流程，可用于观察实践经验、分歧与具体使用边界。
     tags: [v2ex, workflow, case-study]
     featured: false
 
@@ -957,7 +957,7 @@ resources:
     published_at: 2026-04-24
     added_at: 2026-07-13
     language: zh
-    summary_zh: 讨论人工编写测试、拉取请求钩子和独立复核，警惕同一智能体为过测试采用脏实现。
+    summary_zh: 讨论人工编写测试、拉取请求钩子和独立复核，警惕同一智能体为过测试采用脏实现，可用于观察实践经验、分歧与具体使用边界。
     tags: [v2ex, testing, quality]
     featured: true
 
@@ -970,7 +970,7 @@ resources:
     published_at: 2026-04-24
     added_at: 2026-07-13
     language: zh
-    summary_zh: 高互动讨论主张架构、接口和责任边界由人掌握，AI 负责小步局部实现。
+    summary_zh: 高互动讨论主张架构、接口和责任边界由人掌握，AI 负责小步局部实现，可用于观察实践经验、分歧与具体使用边界。
     tags: [v2ex, debate, engineering]
     featured: false
 
@@ -996,7 +996,7 @@ resources:
     published_at: 2026-06-19
     added_at: 2026-07-13
     language: zh
-    summary_zh: 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率。
+    summary_zh: 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率，可用于观察实践经验、分歧与具体使用边界。
     tags: [v2ex, adoption, workplace]
     featured: false
 
@@ -1035,7 +1035,7 @@ resources:
     published_at: 2025-02-17
     added_at: 2026-07-13
     language: en
-    summary_zh: 用一千四百多个真实软件工程和管理任务评估模型能否完成有经济价值的外包工作。
+    summary_zh: 用一千四百多个真实软件工程和管理任务评估模型能否完成有经济价值的外包工作，便于核对任务设计、评估方法与结论适用范围。
     tags: [benchmark, freelance, economics]
     featured: false
 
@@ -1048,7 +1048,7 @@ resources:
     published_at: 2025-04-30
     added_at: 2026-07-13
     language: en
-    summary_zh: 从一百二十八个仓库合成约五万个可执行任务，并训练开源软件工程智能体模型。
+    summary_zh: 从一百二十八个仓库合成约五万个可执行任务，并训练开源软件工程智能体模型，便于核对任务设计、评估方法与结论适用范围。
     tags: [training-data, agents, software-engineering]
     featured: false
 
@@ -1061,7 +1061,7 @@ resources:
     published_at: 2025-05-26
     added_at: 2026-07-13
     language: en
-    summary_zh: 自动从新 GitHub 拉取请求抽取可执行任务，以新鲜数据降低固定榜单污染。
+    summary_zh: 自动从新 GitHub 拉取请求抽取可执行任务，以新鲜数据降低固定榜单污染，便于核对任务设计、评估方法与结论适用范围。
     tags: [benchmark, decontamination, github]
     featured: false
 
@@ -1074,7 +1074,7 @@ resources:
     published_at: 2026-02-27
     added_at: 2026-07-13
     language: en
-    summary_zh: 将任务收集扩展到二十种语言和数千个仓库，更贴近真实多语言软件生态。
+    summary_zh: 将任务收集扩展到二十种语言和数千个仓库，更贴近真实多语言软件生态，便于核对任务设计、评估方法与结论适用范围。
     tags: [benchmark, multilingual, software-engineering]
     featured: false
 
@@ -1087,7 +1087,7 @@ resources:
     published_at: 2026-01-17
     added_at: 2026-07-13
     language: en
-    summary_zh: 以独立环境、人工解法和测试评估智能体完成复杂长时终端工作流的能力。
+    summary_zh: 以独立环境、人工解法和测试评估智能体完成复杂长时终端工作流的能力，便于核对任务设计、评估方法与结论适用范围。
     tags: [benchmark, terminal, agents]
     featured: true
 
@@ -1100,7 +1100,7 @@ resources:
     published_at: 2026-03-25
     added_at: 2026-07-13
     language: en
-    summary_zh: 让智能体连续响应变化需求，衡量代码冗余和结构侵蚀如何随多轮迭代增长。
+    summary_zh: 让智能体连续响应变化需求，衡量代码冗余和结构侵蚀如何随多轮迭代增长，便于核对任务设计、评估方法与结论适用范围。
     tags: [benchmark, maintainability, long-horizon]
     featured: true
 
@@ -1113,7 +1113,7 @@ resources:
     published_at: 2025-09-26
     added_at: 2026-07-13
     language: en
-    summary_zh: 用真实漏洞场景的多文件任务同时检查功能、已知漏洞和新引入的安全问题。
+    summary_zh: 用真实漏洞场景的多文件任务同时检查功能、已知漏洞和新引入的安全问题，便于核对任务设计、评估方法与结论适用范围。
     tags: [security, benchmark, vulnerabilities]
     featured: true
 
@@ -1126,7 +1126,7 @@ resources:
     published_at: 2025-10-01
     added_at: 2026-07-13
     language: en
-    summary_zh: 比较不同工作区上下文中的可执行恶意代码攻击，评估智能体包装对越狱风险的放大。
+    summary_zh: 比较不同工作区上下文中的可执行恶意代码攻击，评估智能体包装对越狱风险的放大，便于核对任务设计、评估方法与结论适用范围。
     tags: [security, jailbreak, agents]
     featured: false
 

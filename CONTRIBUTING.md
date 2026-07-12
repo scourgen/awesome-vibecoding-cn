@@ -34,7 +34,7 @@
 字段要求：
 
 - `id` 一经收录应保持稳定，使用唯一的英文短横线标识。
-- `title_zh` 和 `summary_zh` 必须包含中文；摘要为 40—120 个中文字符并以句号结尾。
+- `title_zh` 和 `summary_zh` 必须包含中文；摘要按 `summary_zh.strip()` 的 Python Unicode code point 总数计为 40—120（含中英文、空格与标点），并以句号结尾。
 - `title_original` 保留原始标题，中文原文可以与中文标题相同。
 - `url` 使用去除跟踪参数后的原始 HTTPS 链接。
 - `category` 可复用已有分类；新增分类时，请同时更新中文显示映射、相关测试和文档。

@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 from typing import Sequence
 
-from scripts.resource_model import load_resources, validate_resources
+from scripts.resource_model import CatalogFormatError, load_resources, validate_resources
 
 DATA_PATH = Path("data/resources.yaml")
 
@@ -13,7 +13,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Validate the structured resource catalog")
     parser.parse_args(argv)
 
-    resources = load_resources(DATA_PATH)
+    try:
+        resources = load_resources(DATA_PATH)
+    except (CatalogFormatError, OSError) as error:
+        print(f"Catalog error: {error}")
+        return 1
     errors = validate_resources(resources)
     if errors:
         for error in errors:
