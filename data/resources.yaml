@@ -1,0 +1,14 @@
+resources:
+  - id: claude-code
+    title_zh: Claude Code 开源仓库
+    title_original: Claude Code
+    url: https://github.com/anthropics/claude-code
+    category: tools
+    source: Anthropic
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。
+    tags: [agent, cli]
+    featured: true
+
