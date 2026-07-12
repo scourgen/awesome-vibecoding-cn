@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -31,10 +32,16 @@ STRING_FIELDS = (
     "summary_zh",
 )
 TRACKING_PARAMETERS = frozenset({"urlsource", "fbclid", "gclid"})
+CATALOG_TIMEZONE = ZoneInfo("Asia/Shanghai")
 
 
 class CatalogFormatError(ValueError):
     """Raised when a catalog cannot be interpreted as a resource list."""
+
+
+def _catalog_today(now: datetime | None = None) -> date:
+    current = now or datetime.now(CATALOG_TIMEZONE)
+    return current.astimezone(CATALOG_TIMEZONE).date()
 
 
 def _contains_cjk(value: str) -> bool:
@@ -168,7 +175,7 @@ def validate_resources(resources: list[Resource]) -> list[str]:
     errors: list[str] = []
     ids: dict[str, int] = {}
     urls: dict[str, str] = {}
-    today = date.today()
+    today = _catalog_today()
     for index, resource in enumerate(resources, start=1):
         label = resource.id or f"resource #{index}"
         errors.extend(f"{label}: missing field: {name}" for name in resource._missing_fields)

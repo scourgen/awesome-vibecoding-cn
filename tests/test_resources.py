@@ -1,5 +1,5 @@
 from dataclasses import replace
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import pytest
@@ -118,10 +118,16 @@ def test_urls_without_a_hostname_are_rejected() -> None:
 
 
 def test_future_dates_are_rejected() -> None:
-    tomorrow = date.today() + timedelta(days=1)
+    tomorrow = resource_model._catalog_today() + timedelta(days=1)
     errors = validate_resources([make_resource(published_at=tomorrow, added_at=tomorrow)])
     assert any("future published_at" in error for error in errors)
     assert any("future added_at" in error for error in errors)
+
+
+def test_catalog_today_uses_maintainer_timezone() -> None:
+    utc_evening = datetime(2026, 7, 12, 18, 53, tzinfo=timezone.utc)
+
+    assert resource_model._catalog_today(utc_evening) == date(2026, 7, 13)
 
 
 def test_duplicate_ids_are_rejected() -> None:
