@@ -11,3 +11,1147 @@ resources:
     summary_zh: Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。
     tags: [agent, cli]
     featured: true
+
+  - id: superpowers
+    title_zh: Superpowers 智能体开发方法论
+    title_original: An agentic skills framework & software development methodology that works
+    url: https://github.com/obra/superpowers
+    category: skills
+    source: Jesse Vincent
+    published_at: 2025-10-09
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 将头脑风暴、测试驱动开发、系统调试、评审和验证组织成可组合的强约束技能。
+    tags: [skills, workflow, tdd]
+    featured: true
+
+  - id: github-awesome-copilot
+    title_zh: GitHub Awesome Copilot 配置合集
+    title_original: Awesome GitHub Copilot
+    url: https://github.com/github/awesome-copilot
+    category: skills
+    source: GitHub
+    published_at: 2025-06-11
+    added_at: 2026-07-13
+    language: en
+    summary_zh: GitHub 官方维护的指令、提示文件、定制智能体和技能示例导航。
+    tags: [copilot, skills, prompts]
+    featured: true
+
+  - id: awesome-cursor-rules
+    title_zh: Awesome Cursor Rules 规则集合
+    title_original: awesome-cursorrules
+    url: https://github.com/PatrickJS/awesome-cursorrules
+    category: skills
+    source: PatrickJS
+    published_at: 2024-09-16
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 按语言和框架整理 Cursor 项目规则，可用于理解旧版规则生态并迁移到新版目录格式。
+    tags: [cursor, rules, prompts]
+    featured: false
+
+  - id: claude-code-templates
+    title_zh: Claude Code Templates 配置工具箱
+    title_original: Claude Code Templates
+    url: https://github.com/davila7/claude-code-templates
+    category: skills
+    source: davila7
+    published_at: 2025-07-04
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 汇集 agents、commands、hooks、MCP 和 settings 模板，并提供配套管理工具。
+    tags: [claude-code, templates, hooks]
+    featured: false
+
+  - id: awesome-claude-code
+    title_zh: Awesome Claude Code 资源精选
+    title_original: Awesome Claude Code
+    url: https://github.com/hesreallyhim/awesome-claude-code
+    category: skills
+    source: hesreallyhim
+    published_at: 2025-04-19
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 精选 Claude Code 的 Skills、Agents、Hooks、插件和开发辅助工具。
+    tags: [claude-code, awesome-list, skills]
+    featured: false
+
+  - id: claude-code-subagents
+    title_zh: Claude Code 专业子智能体合集
+    title_original: Awesome Claude Code Subagents
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents
+    category: skills
+    source: VoltAgent
+    published_at: 2025-07-30
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 提供覆盖开发、测试、安全、运维和产品等岗位的可委派子智能体模板。
+    tags: [claude-code, subagents, roles]
+    featured: false
+
+  - id: github-spec-kit
+    title_zh: Spec Kit 规格驱动开发工具包
+    title_original: Spec Kit
+    url: https://github.com/github/spec-kit
+    category: skills
+    source: GitHub
+    published_at: 2025-08-21
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 通过原则、规格、计划和任务阶段把模糊想法转成可验证的软件交付流程。
+    tags: [sdd, specifications, workflow]
+    featured: true
+
+  - id: bmad-method
+    title_zh: BMAD 多角色敏捷开发方法
+    title_original: BMAD-METHOD
+    url: https://github.com/bmad-code-org/BMAD-METHOD
+    category: skills
+    source: BMAD Code
+    published_at: 2025-04-13
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 以分析师、产品经理、架构师和开发者等角色推动结构化的智能体开发生命周期。
+    tags: [agents, agile, workflow]
+    featured: false
+
+  - id: copilot-customization-cheat-sheet
+    title_zh: GitHub Copilot 自定义能力速查表
+    title_original: Customization cheat sheet
+    url: https://docs.github.com/en/copilot/reference/customization-cheat-sheet
+    category: skills
+    source: GitHub Docs
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 对比项目指令、提示文件、智能体、技能、钩子和 MCP 的位置与支持范围。
+    tags: [copilot, instructions, mcp]
+    featured: false
+
+  - id: opencode
+    title_zh: OpenCode 开源终端编程智能体
+    title_original: The open source coding agent
+    url: https://github.com/anomalyco/opencode
+    category: repos
+    source: Anomaly
+    published_at: 2025-04-30
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 提供终端优先的多模型编程智能体、完整交互界面和可扩展提供商支持。
+    tags: [agent, cli, open-source]
+    featured: true
+
+  - id: anthropic-agent-skills
+    title_zh: Anthropic Agent Skills 官方仓库
+    title_original: Public repository for Agent Skills
+    url: https://github.com/anthropics/skills
+    category: skills
+    source: Anthropic
+    published_at: 2025-09-22
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方示例展示如何用 SKILL.md、脚本和参考资料封装可复用的智能体能力。
+    tags: [skills, agents, official]
+    featured: true
+
+  - id: gemini-cli
+    title_zh: Gemini CLI 开源企业与 API 终端智能体
+    title_original: Gemini CLI
+    url: https://github.com/google-gemini/gemini-cli
+    category: repos
+    source: Google
+    published_at: 2025-04-17
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 该 Apache-2.0 项目继续服务企业和 API 用户，个人免费及 Pro、Ultra 终端入口已迁移到 Antigravity CLI。
+    tags: [agent, cli, gemini]
+    featured: true
+
+  - id: codex-cli
+    title_zh: Codex CLI 开源编程智能体
+    title_original: Codex
+    url: https://github.com/openai/codex
+    category: repos
+    source: OpenAI
+    published_at: 2025-04-13
+    added_at: 2026-07-13
+    language: en
+    summary_zh: OpenAI 的本地终端智能体可读写代码、运行命令并与云端、桌面端和 IDE 协作。
+    tags: [agent, cli, openai]
+    featured: true
+
+  - id: openhands
+    title_zh: OpenHands 开源软件开发平台
+    title_original: "OpenHands: AI-Driven Development"
+    url: https://github.com/OpenHands/OpenHands
+    category: repos
+    source: OpenHands
+    published_at: 2024-03-13
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 让智能体通过代码编辑、终端和浏览器完成软件工程任务，并支持本地或平台部署。
+    tags: [agent, software-engineering, platform]
+    featured: true
+
+  - id: cline
+    title_zh: Cline 编辑器编程智能体
+    title_original: Cline
+    url: https://github.com/cline/cline
+    category: repos
+    source: Cline
+    published_at: 2024-07-06
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 在编辑器内提供可审批的读取、修改、命令执行和验证流程，并支持多模型。
+    tags: [agent, vscode, open-source]
+    featured: false
+
+  - id: goose
+    title_zh: Goose 模型无关开发智能体
+    title_original: goose
+    url: https://github.com/aaif-goose/goose
+    category: repos
+    source: AAIF
+    published_at: 2024-08-23
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 现由 AAIF 维护的可扩展开源智能体，可安装依赖、编辑、执行和测试代码。
+    tags: [agent, cli, aaif]
+    featured: false
+
+  - id: aider
+    title_zh: Aider 终端 AI 结对编程工具
+    title_original: aider is AI pair programming in your terminal
+    url: https://github.com/Aider-AI/aider
+    category: repos
+    source: Aider
+    published_at: 2023-05-09
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 以 Git、代码地图和终端对话为核心，提供成熟的多模型结对编程工作流。
+    tags: [pair-programming, git, cli]
+    featured: false
+
+  - id: continue
+    title_zh: Continue 开源 IDE 编程平台
+    title_original: Continue
+    url: https://github.com/continuedev/continue
+    category: repos
+    source: Continue
+    published_at: 2023-05-24
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 支持自定义模型、上下文提供器、规则和智能体工作流，适合自托管与企业定制。
+    tags: [ide, agent, self-hosted]
+    featured: false
+
+  - id: roo-code
+    title_zh: Roo Code 多模式编辑器智能体
+    title_original: Roo Code
+    url: https://github.com/RooCodeInc/Roo-Code
+    category: repos
+    source: Roo Code
+    published_at: 2024-10-31
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 从 Cline 生态发展出的 VS Code 智能体，强调角色模式、任务编排和团队配置。
+    tags: [vscode, agents, orchestration]
+    featured: false
+
+  - id: swe-agent
+    title_zh: SWE-agent 自动修复 GitHub Issue
+    title_original: SWE-agent
+    url: https://github.com/SWE-agent/SWE-agent
+    category: repos
+    source: Princeton NLP
+    published_at: 2024-04-02
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 将真实 Issue、终端环境和模型连接起来，自动定位、修改并测试软件修复。
+    tags: [swe-bench, agent, research]
+    featured: false
+
+  - id: autogen
+    title_zh: AutoGen 多智能体应用框架
+    title_original: AutoGen
+    url: https://github.com/microsoft/autogen
+    category: repos
+    source: Microsoft
+    published_at: 2023-08-18
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 提供智能体、工具、消息和多智能体协作抽象，可用于搭建软件工程代理系统。
+    tags: [multi-agent, framework, microsoft]
+    featured: false
+
+  - id: repomix
+    title_zh: Repomix 仓库上下文打包工具
+    title_original: Repomix
+    url: https://github.com/yamadashy/repomix
+    category: repos
+    source: yamadashy
+    published_at: 2024-07-13
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 将代码库整理为适合模型输入的单文件，并提供过滤、令牌统计和安全检查。
+    tags: [context, repository, cli]
+    featured: false
+
+  - id: serena
+    title_zh: Serena 智能体语义编程工具
+    title_original: Serena — the IDE for your agent
+    url: https://github.com/oraios/serena
+    category: repos
+    source: Oraios
+    published_at: 2025-03-23
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 借助语言服务器为编程智能体提供符号级导航、语义检索和精确编辑。
+    tags: [mcp, language-server, context]
+    featured: false
+
+  - id: context7
+    title_zh: Context7 最新文档上下文服务
+    title_original: Context7
+    url: https://github.com/upstash/context7
+    category: repos
+    source: Upstash
+    published_at: 2025-03-26
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 通过 MCP 注入特定版本的官方库文档，减少过期接口和虚构用法。
+    tags: [mcp, documentation, context]
+    featured: false
+
+  - id: mcp-servers
+    title_zh: Model Context Protocol 参考服务器
+    title_original: Model Context Protocol Servers
+    url: https://github.com/modelcontextprotocol/servers
+    category: repos
+    source: Model Context Protocol
+    published_at: 2024-11-19
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 汇集官方参考服务器并导航社区实现，展示统一协议连接文件、Git 和外部服务的方式。
+    tags: [mcp, servers, protocol]
+    featured: true
+
+  - id: cursor-rules-docs
+    title_zh: Cursor Rules 项目规范指南
+    title_original: Rules
+    url: https://docs.cursor.com/context/rules
+    category: tools
+    source: Cursor
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 介绍项目规则、用户规则、记忆、触发类型和嵌套目录的当前官方机制。
+    tags: [cursor, rules, ide]
+    featured: false
+
+  - id: windsurf-memories-rules
+    title_zh: Windsurf 记忆、Rules 与 AGENTS.md
+    title_original: Memories & Rules
+    url: https://docs.windsurf.com/zh/windsurf/cascade/memories
+    category: tools
+    source: Windsurf
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 官方中文文档比较 Rules、AGENTS.md、Workflows、Skills 和自动记忆的持久化方式。
+    tags: [windsurf, rules, context]
+    featured: false
+
+  - id: windsurf-skills
+    title_zh: Windsurf Cascade 技能指南
+    title_original: Cascade Skills
+    url: https://docs.windsurf.com/windsurf/cascade/skills
+    category: tools
+    source: Windsurf
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 使用 SKILL.md、脚本、模板和参考资料封装复杂流程，并按需渐进加载内容。
+    tags: [windsurf, skills, ide]
+    featured: false
+
+  - id: codebuddy-overview
+    title_zh: 腾讯 CodeBuddy 产品形态总览
+    title_original: CodeBuddy 产品概述
+    url: https://cloud.tencent.com/document/product/1749/104236
+    category: tools
+    source: 腾讯云
+    published_at: 2025-10-11
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 对比插件、独立 IDE 与 CLI 三种形态，并说明 Craft、子智能体和自动化工作流。
+    tags: [codebuddy, ide, cli]
+    featured: false
+
+  - id: lingma-rules
+    title_zh: 通义灵码项目规则指南
+    title_original: Rules
+    url: https://help.aliyun.com/zh/lingma/qoder-cn/user-guide/rules
+    category: tools
+    source: 阿里云
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 说明项目规则目录及手动、模型判断、始终启用和文件匹配四类触发方式。
+    tags: [lingma, rules, ide]
+    featured: false
+
+  - id: comate-product
+    title_zh: 文心快码 Comate 产品能力
+    title_original: 文心快码产品介绍
+    url: https://cloud.baidu.com/doc/COMATE/s/xlnvqe047
+    category: tools
+    source: 百度智能云
+    published_at: 2026-04-01
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 覆盖多智能体、自定义 Agent、Rules、MCP、补全、知识增强和独立 AI IDE。
+    tags: [comate, ide, agents]
+    featured: false
+
+  - id: trae-ide
+    title_zh: TRAE AI 原生 IDE
+    title_original: TRAE AI IDE
+    url: https://www.trae.ai/ide
+    category: tools
+    source: TRAE
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 字节系 AI 原生开发环境入口，面向个人开发者提供智能体式编码体验。
+    tags: [trae, ide, product]
+    featured: false
+
+  - id: glm-coding-plan
+    title_zh: GLM Coding Plan 接入指南
+    title_original: GLM Coding Plan 快速开始
+    url: https://docs.bigmodel.cn/cn/coding-plan/quick-start
+    category: tools
+    source: 智谱 AI
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 介绍如何把 GLM 编程模型接入 Claude Code、Cursor、OpenCode 和 Cline 等工具。
+    tags: [glm, models, integration]
+    featured: false
+
+  - id: deepseek-claude-code
+    title_zh: DeepSeek 接入 Claude Code
+    title_original: Claude Code integration
+    url: https://api-docs.deepseek.com/guides/agent_integrations/claude_code
+    category: tools
+    source: DeepSeek
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 使用官方 Anthropic 兼容端点将 DeepSeek 模型配置到 Claude Code。
+    tags: [deepseek, claude-code, integration]
+    featured: false
+
+  - id: gemini-cli-safety-tools
+    title_zh: Gemini CLI 工具与安全审批机制
+    title_original: Tools
+    url: https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/tools.md
+    category: tools
+    source: Google
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 解释文件、Shell、Web 和 MCP 工具，以及确认、沙箱和可信目录等执行边界。
+    tags: [gemini, tools, security]
+    featured: false
+
+  - id: openai-codex-developers
+    title_zh: OpenAI Codex 官方开发者入口
+    title_original: Codex
+    url: https://developers.openai.com/
+    category: companies
+    source: OpenAI
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 聚合 Codex 产品、开发文档、案例和智能体编程资源的官方入口。
+    tags: [codex, openai, official]
+    featured: true
+
+  - id: claude-code-ga
+    title_zh: Claude Code 正式可用与 Claude 4
+    title_original: Claude 4
+    url: https://www.anthropic.com/news/claude-4
+    category: companies
+    source: Anthropic
+    published_at: 2025-05-22
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 记录 Claude Code 正式可用，并介绍后台任务、IDE 集成和代理式开发能力。
+    tags: [claude-code, announcement, anthropic]
+    featured: false
+
+  - id: gemini-cli-antigravity-migration
+    title_zh: Gemini CLI 迁移至 Antigravity CLI 公告
+    title_original: "An important update: Transitioning Gemini CLI to Antigravity CLI"
+    url: https://github.com/google-gemini/gemini-cli/discussions/27274
+    category: companies
+    source: Google Gemini CLI
+    published_at: 2026-05-19
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 公告确认 2026 年 6 月 18 日起个人免费及 Pro、Ultra 终端体验迁至 Antigravity CLI，企业与 API 使用继续保留。
+    tags: [gemini, antigravity, migration]
+    featured: true
+
+  - id: github-copilot-cloud-agent
+    title_zh: GitHub Copilot 云端智能体
+    title_original: About GitHub Copilot cloud agent
+    url: https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent
+    category: companies
+    source: GitHub Docs
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 介绍异步处理 Issue、在独立环境编码并创建草稿拉取请求的云端智能体。
+    tags: [copilot, cloud-agent, github]
+    featured: false
+
+  - id: amazon-q-developer
+    title_zh: Amazon Q Developer 官方文档中心
+    title_original: Amazon Q Developer documentation
+    url: https://aws.amazon.com/documentation-overview/q-developer/
+    category: companies
+    source: AWS
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 覆盖 IDE 对话、代码解释、修复、测试以及从自然语言生成完整功能的官方资料。
+    tags: [amazon-q, aws, ide]
+    featured: false
+
+  - id: cloudflare-workers-ai
+    title_zh: Cloudflare Workers AI 平台
+    title_original: Workers AI
+    url: https://developers.cloudflare.com/workers-ai/
+    category: companies
+    source: Cloudflare
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 在 Cloudflare GPU 网络运行开放模型，并可结合 AI Gateway 与 Vectorize 构建应用。
+    tags: [cloudflare, ai-platform, deployment]
+    featured: false
+
+  - id: vercel-ai-sdk
+    title_zh: Vercel AI SDK 开发工具包
+    title_original: AI SDK
+    url: https://vercel.com/ai-sdk
+    category: companies
+    source: Vercel
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 面向 TypeScript 提供多模型调用、流式响应、工具调用和智能体开发能力。
+    tags: [vercel, typescript, sdk]
+    featured: false
+
+  - id: vercel-v0
+    title_zh: Vercel v0 全栈应用生成器
+    title_original: v0
+    url: https://vercel.com/docs/v0
+    category: companies
+    source: Vercel
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 从自然语言生成界面、落地页和全栈应用，并可直接衔接 Vercel 部署。
+    tags: [v0, app-builder, vercel]
+    featured: false
+
+  - id: lovable-platform
+    title_zh: Lovable 自然语言全栈开发平台
+    title_original: Welcome to Lovable
+    url: https://docs.lovable.dev/introduction/welcome
+    category: companies
+    source: Lovable
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 生成前端、后端、数据库、认证和集成，并支持 GitHub 同步与部署。
+    tags: [lovable, app-builder, full-stack]
+    featured: false
+
+  - id: replit-agent
+    title_zh: Replit Agent 云端应用开发
+    title_original: Build with Replit Agent
+    url: https://docs.replit.com/learn/build-with-agent
+    category: companies
+    source: Replit
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 在云端从想法生成、运行、调试并发布应用，覆盖从编码到托管的一体化路线。
+    tags: [replit, app-builder, cloud]
+    featured: false
+
+  - id: claude-code-best-practices
+    title_zh: Claude Code 智能体编程最佳实践
+    title_original: "Claude Code: Best Practices for Agentic Coding"
+    url: https://www.anthropic.com/engineering/claude-code-best-practices
+    category: articles
+    source: Anthropic Engineering
+    published_at: 2025-04-18
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 系统讲解项目指令、探索与计划、测试驱动开发、上下文管理和独立审查。
+    tags: [claude-code, best-practices, workflow]
+    featured: true
+
+  - id: swe-bench-retirement
+    title_zh: 为什么 SWE-bench Verified 已难衡量前沿能力
+    title_original: Why SWE-bench Verified No Longer Measures Frontier Coding Capabilities
+    url: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
+    category: articles
+    source: OpenAI
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 分析测试缺陷和数据污染如何削弱榜单区分度，提醒读者谨慎解读单一基准。
+    tags: [swe-bench, evaluation, openai]
+    featured: false
+
+  - id: harness-engineering
+    title_zh: Harness Engineering 智能体优先代码库实践
+    title_original: "Harness Engineering: Leveraging Codex in an Agent-First World"
+    url: https://openai.com/index/harness-engineering/
+    category: articles
+    source: OpenAI
+    published_at: 2026-02-11
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 总结仓库可读性、约束、反馈回路、文档结构和持续熵管理等智能体工程经验。
+    tags: [codex, harness, engineering]
+    featured: true
+
+  - id: symphony
+    title_zh: Symphony 项目看板智能体编排规范
+    title_original: "An Open-Source Spec for Codex Orchestration: Symphony"
+    url: https://openai.com/index/open-source-codex-orchestration-symphony/
+    category: articles
+    source: OpenAI
+    published_at: 2026-04-27
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换。
+    tags: [codex, orchestration, multi-agent]
+    featured: false
+
+  - id: not-all-ai-vibe-coding
+    title_zh: 别把所有 AI 辅助编程都叫 Vibe Coding
+    title_original: Not All AI-Assisted Programming Is Vibe Coding (But Vibe Coding Rocks)
+    url: https://simonwillison.net/2025/Mar/19/vibe-coding/
+    category: articles
+    source: Simon Willison
+    published_at: 2025-03-19
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 区分忽略代码细节的原始 Vibe Coding 与工程师审阅、理解并负责的 AI 辅助开发。
+    tags: [vibe-coding, definition, opinion]
+    featured: true
+
+  - id: ai-coding-to-sdd
+    title_zh: AI 编码实践：从 Vibe Coding 到 SDD
+    title_original: AI 编码实践：从 Vibe Coding 到 SDD
+    url: https://zhuanlan.zhihu.com/p/2001605764670833810
+    category: articles
+    source: 阿里云开发者
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 淘特导购团队复盘从补全、智能体与规则演进到轻量规格驱动开发的工程方案。
+    tags: [sdd, case-study, enterprise]
+    featured: false
+
+  - id: cursor-security-agents
+    title_zh: Cursor 如何用自主 Agent 守护代码库
+    title_original: Security Agents
+    url: https://cursor.com/blog/security-agents
+    category: articles
+    source: Cursor
+    published_at: 2026-03-16
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 展示持续安全审查、漏洞发现、依赖更新和不变量检查等可复用智能体模板。
+    tags: [security, cursor, agents]
+    featured: false
+
+  - id: gemini-responsible-ai
+    title_zh: Gemini Code Assist 负责任 AI 指南
+    title_original: Responsible AI for Gemini Code Assist
+    url: https://developers.google.com/gemini-code-assist/docs/responsible-ai
+    category: articles
+    source: Google
+    published_at: 2026-05-27
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核。
+    tags: [gemini, responsible-ai, safety]
+    featured: false
+
+  - id: lovable-security
+    title_zh: Lovable 应用安全总览
+    title_original: Security overview
+    url: https://docs.lovable.dev/features/security
+    category: articles
+    source: Lovable
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 覆盖密钥防泄漏、行级安全、数据库、代码和依赖扫描以及发布前检查。
+    tags: [lovable, security, app-builder]
+    featured: false
+
+  - id: replit-shared-responsibility
+    title_zh: Replit 共享责任模型
+    title_original: Shared responsibility model
+    url: https://docs.replit.com/references/security/shared-responsibility-model
+    category: articles
+    source: Replit
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 划分平台、智能体、开发环境、已发布应用和用户各自承担的安全责任。
+    tags: [replit, security, governance]
+    featured: false
+
+  - id: easy-vibe
+    title_zh: Easy-Vibe 会说话就会做应用
+    title_original: Easy-Vibe
+    url: https://github.com/datawhalechina/easy-vibe
+    category: tutorials
+    source: Datawhale
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 面向零基础到进阶开发者的开源课程，覆盖全栈、RAG、MCP、SaaS 和小程序开发。
+    tags: [course, beginner, datawhale]
+    featured: true
+
+  - id: codex-use-cases
+    title_zh: Codex 官方实战案例库
+    title_original: Codex use cases
+    url: https://developers.openai.com/codex/use-cases
+    category: tutorials
+    source: OpenAI
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 展示代码迁移、安全扫描、拉取请求审查、前端构建、测试和自动化等任务模式。
+    tags: [codex, examples, workflow]
+    featured: false
+
+  - id: claude-code-quickstart
+    title_zh: Claude Code 安装与快速开始
+    title_original: Claude Code quickstart
+    url: https://docs.anthropic.com/en/docs/claude-code/getting-started
+    category: tutorials
+    source: Anthropic
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方说明安装、登录、系统要求、更新方式和首次运行终端任务的步骤。
+    tags: [claude-code, quickstart, cli]
+    featured: false
+
+  - id: gemini-cli-quickstart
+    title_zh: Gemini CLI 企业与 API 用户快速开始
+    title_original: Gemini CLI quickstart
+    url: https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/index.md
+    category: tutorials
+    source: Google
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 介绍安装、认证、配置和首个任务，个人免费及 Pro、Ultra 用户应改用 Antigravity CLI。
+    tags: [gemini, quickstart, cli]
+    featured: false
+
+  - id: copilot-customization-library
+    title_zh: GitHub Copilot 自定义案例库
+    title_original: Customization library
+    url: https://docs.github.com/en/copilot/tutorials/customization-library
+    category: tutorials
+    source: GitHub Docs
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方整理可直接复用的项目指令、提示文件和定制智能体实例。
+    tags: [copilot, examples, customization]
+    featured: false
+
+  - id: lovable-prompting
+    title_zh: Lovable 产品开发提示最佳实践
+    title_original: Prompting best practices
+    url: https://docs.lovable.dev/prompting/prompting-one
+    category: tutorials
+    source: Lovable
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 从需求澄清、用户旅程和组件化构建讲到版本控制与逐步迭代。
+    tags: [lovable, prompting, product]
+    featured: false
+
+  - id: bolt-quickstart
+    title_zh: Bolt 十分钟应用快速开始
+    title_original: QuickStart
+    url: https://support.bolt.new/building/quickstart
+    category: tutorials
+    source: Bolt
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 通过完整示例演示从提示、数据库和登录到预览及发布的浏览器开发流程。
+    tags: [bolt, quickstart, app-builder]
+    featured: false
+
+  - id: lingma-multifile-tests
+    title_zh: 通义灵码多文件修改与单元测试
+    title_original: 多文件修改
+    url: https://help.aliyun.com/zh/lingma/user-guide/edit/
+    category: tutorials
+    source: 阿里云
+    published_at:
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 官方讲解需求拆分、上下文选择、快照回退以及测试的生成、运行与修复。
+    tags: [lingma, testing, tutorial]
+    featured: false
+
+  - id: comate-zulu-agent
+    title_zh: 文心快码 Zulu Agent 入门
+    title_original: Zulu Agent 入门
+    url: https://cloud.baidu.com/doc/COMATE/s/vm66asjm4
+    category: tutorials
+    source: 百度智能云
+    published_at: 2026-02-28
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 演示从需求到代码、多智能体拆解、命令执行、验证和迭代的完整流程。
+    tags: [comate, agents, tutorial]
+    featured: false
+
+  - id: replit-security-checklist
+    title_zh: Replit Vibe Coding 安全清单
+    title_original: Security checklist for vibe-coded applications
+    url: https://docs.replit.com/learn/security-checklist
+    category: tutorials
+    source: Replit
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 从前端、后端、HTTPS、认证和输入验证到持续维护逐项检查生成式应用。
+    tags: [security, checklist, replit]
+    featured: false
+
+  - id: linuxdo-vibe-course
+    title_zh: Vibe Coding 从入门到 Harness Engineering
+    title_original: Vibe Coding 入门到项目实战
+    url: https://linux.do/t/topic/2085611
+    category: community
+    source: LINUX DO · joytion
+    published_at: 2026-04-30
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 以开源项目自荐形式串联 Prompt、上下文、MCP、Skills、规格驱动开发和 Harness Engineering。
+    tags: [linux-do, workflow, tutorial]
+    featured: false
+
+  - id: linuxdo-maintenance
+    title_zh: Vibe Coding 进入工作后如何长效维护
+    title_original: 当 Vibe Coding 真正进入工作，该如何长效维护
+    url: https://linux.do/t/topic/2279770
+    category: community
+    source: LINUX DO · skyrock
+    published_at: 2026-05-31
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 围绕真实线下工具投入生产后的维护成本，讨论从生成成品转向固定协作流程。
+    tags: [linux-do, maintenance, production]
+    featured: false
+
+  - id: linuxdo-project-ideas
+    title_zh: 中文开发者都在 Vibe Coding 什么项目
+    title_original: 各位佬友，大家 Vibe Coding 都在写什么呢
+    url: https://linux.do/t/topic/2051569
+    category: community
+    source: LINUX DO · duiguangbin
+    published_at: 2026-04-25
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 汇集装箱工具、启动页、自动打卡、桌面启动器、小说界面和浏览器插件等真实选题。
+    tags: [linux-do, showcase, ideas]
+    featured: false
+
+  - id: linuxdo-codex-training-workload
+    title_zh: 培训 Codex 后工作反而更多了
+    title_original: 给公司培训完 Codex 后，反而工作变得更多了
+    url: https://linux.do/t/topic/2268339
+    category: community
+    source: LINUX DO · fairyw
+    published_at: 2026-05-29
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 记录内部工具培训后工期被压缩、任务增加的经历，呈现效率收益分配的组织争议。
+    tags: [linux-do, workplace, productivity]
+    featured: true
+
+  - id: linuxdo-harness-failure
+    title_zh: 一个未能实现的 Vibe Coding Harness
+    title_original: 打算做一个 Vibe Coding 的 Harness
+    url: https://linux.do/t/topic/2306363
+    category: community
+    source: LINUX DO · Soei
+    published_at: 2026-06-04
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论。
+    tags: [linux-do, harness, failure]
+    featured: false
+
+  - id: linuxdo-production-practice
+    title_zh: Vibe Coding 生产项目实践讨论
+    title_original: 大家在 Vibe Coding 生产项目时，都怎么做
+    url: https://linux.do/t/topic/2360067
+    category: community
+    source: LINUX DO · eof_karel
+    published_at: 2026-06-10
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审。
+    tags: [linux-do, production, testing]
+    featured: true
+
+  - id: v2ex-one-week-workflow
+    title_zh: Vibe Coding 一周体验与工程流程
+    title_original: Vibe Coding 使用一周体验及疑惑
+    url: https://www.v2ex.com/t/1203913
+    category: community
+    source: V2EX · a526796017
+    published_at: 2026-04-07
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 详细记录原型、业务与权限文档、前后端智能体、人工验证、评审和提交的流程。
+    tags: [v2ex, workflow, case-study]
+    featured: false
+
+  - id: v2ex-production-bugs
+    title_zh: 大量生成代码后的线上质量责任
+    title_original: Vibe Coding 之后线上出了几个问题
+    url: https://www.v2ex.com/t/1208265
+    category: community
+    source: V2EX · kyrieIvring
+    published_at: 2026-04-24
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 讨论人工编写测试、拉取请求钩子和独立复核，警惕同一智能体为过测试采用脏实现。
+    tags: [v2ex, testing, quality]
+    featured: true
+
+  - id: v2ex-vibe-meaning
+    title_zh: Vibe Coding 的意义与工程边界
+    title_original: Vibe Coding 有什么意义？
+    url: https://v2ex.com/t/1208240
+    category: community
+    source: V2EX · chuchen023
+    published_at: 2026-04-24
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 高互动讨论主张架构、接口和责任边界由人掌握，AI 负责小步局部实现。
+    tags: [v2ex, debate, engineering]
+    featured: false
+
+  - id: v2ex-realtime-failure
+    title_zh: Vibe Coding 难解音画同步问题
+    title_original: Vibe Coding 一时爽，一直 Vibe Coding 呢？
+    url: https://v2ex.com/t/1215040
+    category: community
+    source: V2EX · dsd2077
+    published_at: 2026-05-24
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。
+    tags: [v2ex, failure, debugging]
+    featured: false
+
+  - id: v2ex-tool-comparison
+    title_zh: 中文社区 AI 编程工具实用对比
+    title_original: AI 编程工具大家实际使用中哪个综合下来最好用？
+    url: https://www.v2ex.com/t/1210849
+    category: community
+    source: V2EX · fireeeeee
+    published_at: 2026-05-07
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 用户按当时价格与体验比较 Claude Code、Codex、Cursor、TRAE、通义灵码和 Qoder。
+    tags: [v2ex, tools, comparison]
+    featured: false
+
+  - id: v2ex-ai-bubble
+    title_zh: AI 编程普及率的信息茧房
+    title_original: 我是不是在几乎全员 AI 编程的信息茧房里
+    url: https://www.v2ex.com/t/1221461
+    category: community
+    source: V2EX · NotAfraidLP
+    published_at: 2026-06-19
+    added_at: 2026-07-13
+    language: zh
+    summary_zh: 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率。
+    tags: [v2ex, adoption, workplace]
+    featured: false
+
+  - id: swe-bench
+    title_zh: SWE-bench 真实软件工程基准
+    title_original: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+    url: https://www.swebench.com/original.html
+    category: research
+    source: Carlos E. Jimenez 等
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 要求模型依据真实 GitHub Issue 修改完整仓库并通过测试，奠定现代编程智能体评价方式。
+    tags: [benchmark, software-engineering, agents]
+    featured: true
+
+  - id: swe-bench-verified
+    title_zh: SWE-bench Verified 人工核验基准
+    title_original: Introducing SWE-bench Verified
+    url: https://openai.com/index/introducing-swe-bench-verified/
+    category: research
+    source: OpenAI 与 SWE-bench
+    published_at: 2024-08-13
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 人工核验五百个软件修复任务以降低测试缺陷和描述歧义，阅读时应结合其后续退役说明。
+    tags: [swe-bench, benchmark, verification]
+    featured: false
+
+  - id: swe-lancer
+    title_zh: SWE-Lancer 真实外包任务基准
+    title_original: "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?"
+    url: https://arxiv.org/abs/2502.12115
+    category: research
+    source: Samuel Miserendino 等
+    published_at: 2025-02-17
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 用一千四百多个真实软件工程和管理任务评估模型能否完成有经济价值的外包工作。
+    tags: [benchmark, freelance, economics]
+    featured: false
+
+  - id: swe-smith
+    title_zh: SWE-smith 软件工程训练数据
+    title_original: "SWE-smith: Scaling Data for Software Engineering Agents"
+    url: https://arxiv.org/abs/2504.21798
+    category: research
+    source: John Yang 等
+    published_at: 2025-04-30
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 从一百二十八个仓库合成约五万个可执行任务，并训练开源软件工程智能体模型。
+    tags: [training-data, agents, software-engineering]
+    featured: false
+
+  - id: swe-rebench
+    title_zh: SWE-rebench 持续更新软件工程基准
+    title_original: "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents"
+    url: https://arxiv.org/abs/2505.20411
+    category: research
+    source: Ibragim Badertdinov 等
+    published_at: 2025-05-26
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 自动从新 GitHub 拉取请求抽取可执行任务，以新鲜数据降低固定榜单污染。
+    tags: [benchmark, decontamination, github]
+    featured: false
+
+  - id: swe-rebench-v2
+    title_zh: SWE-rebench V2 多语言任务流水线
+    title_original: "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale"
+    url: https://arxiv.org/abs/2602.23866
+    category: research
+    source: Ibragim Badertdinov 等
+    published_at: 2026-02-27
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 将任务收集扩展到二十种语言和数千个仓库，更贴近真实多语言软件生态。
+    tags: [benchmark, multilingual, software-engineering]
+    featured: false
+
+  - id: terminal-bench
+    title_zh: Terminal-Bench 真实终端任务基准
+    title_original: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+    url: https://arxiv.org/abs/2601.11868
+    category: research
+    source: Mike A. Merrill 等
+    published_at: 2026-01-17
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 以独立环境、人工解法和测试评估智能体完成复杂长时终端工作流的能力。
+    tags: [benchmark, terminal, agents]
+    featured: true
+
+  - id: slopcodebench
+    title_zh: SlopCodeBench 长期代码退化基准
+    title_original: "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks"
+    url: https://arxiv.org/abs/2603.24755
+    category: research
+    source: Gabriel Orlanski 等
+    published_at: 2026-03-25
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 让智能体连续响应变化需求，衡量代码冗余和结构侵蚀如何随多轮迭代增长。
+    tags: [benchmark, maintainability, long-horizon]
+    featured: true
+
+  - id: secureagentbench
+    title_zh: SecureAgentBench 安全编码基准
+    title_original: "SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios"
+    url: https://arxiv.org/abs/2509.22097
+    category: research
+    source: Junkai Chen 等
+    published_at: 2025-09-26
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 用真实漏洞场景的多文件任务同时检查功能、已知漏洞和新引入的安全问题。
+    tags: [security, benchmark, vulnerabilities]
+    featured: true
+
+  - id: jaws-bench
+    title_zh: JAWS-BENCH 编程智能体越狱评估
+    title_original: "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks"
+    url: https://arxiv.org/abs/2510.01359
+    category: research
+    source: Shoumik Saha 等
+    published_at: 2025-10-01
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 比较不同工作区上下文中的可执行恶意代码攻击，评估智能体包装对越狱风险的放大。
+    tags: [security, jailbreak, agents]
+    featured: false
+
+  - id: metr-productivity
+    title_zh: 早期 2025 AI 工具对资深开发者生产力的影响
+    title_original: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+    url: https://arxiv.org/abs/2507.09089
+    category: research
+    source: Joel Becker 等
+    published_at: 2025-07-10
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 随机对照实验发现特定早期工具让成熟仓库的资深维护者平均变慢，结论不应泛化到所有场景。
+    tags: [productivity, experiment, open-source]
+    featured: true

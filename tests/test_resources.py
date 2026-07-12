@@ -30,6 +30,24 @@ def test_seed_resources_are_valid() -> None:
     assert validate_resources(resources) == []
 
 
+def test_v1_has_broad_coverage() -> None:
+    resources = load_resources(Path("data/resources.yaml"))
+    required = {
+        "skills",
+        "repos",
+        "tools",
+        "companies",
+        "articles",
+        "tutorials",
+        "community",
+        "research",
+    }
+    assert required <= {item.category for item in resources}
+    assert len(resources) >= 80
+    assert sum(item.language == "zh" for item in resources) >= 20
+    assert sum(item.featured for item in resources) >= 12
+
+
 def test_duplicate_urls_are_rejected(tmp_path: Path) -> None:
     data = tmp_path / "resources.yaml"
     data.write_text(
