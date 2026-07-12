@@ -1,0 +1,50 @@
+name: 报告失效链接
+description: 报告 README 中无法访问、跳转错误或内容已迁移的资源链接
+title: "[失效链接] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮助维护目录。请提供可复现的访问结果；临时网络故障、地区限制和永久失效需要区别说明。
+
+  - type: input
+    id: readme_entry
+    attributes:
+      label: README 条目
+      description: 请填写 README 中显示的中文标题，必要时附所在分类。
+      placeholder: 例如：文章 / 示例智能体工作流
+    validations:
+      required: true
+
+  - type: input
+    id: broken_url
+    attributes:
+      label: 失效 URL
+      description: 请复制 README 当前指向的完整链接。
+      placeholder: https://example.com/old-page
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed_status
+    attributes:
+      label: 观察到的状态
+      description: 请写明 HTTP 状态码、错误信息、错误跳转或页面内容变化，并注明核验日期和网络环境。
+      placeholder: 2026-07-13 在普通公网访问返回 HTTP 404；重试后结果相同。
+    validations:
+      required: true
+
+  - type: input
+    id: replacement_url
+    attributes:
+      label: 可选替代链接
+      description: 若内容已迁移，请提供同一作者或组织发布的规范 HTTPS 页面；没有可留空。
+      placeholder: https://example.com/new-page
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 核验确认
+      options:
+        - label: 我已直接打开该 URL 并至少重试一次，而不是只依据搜索结果或第三方检测站。
+          required: true

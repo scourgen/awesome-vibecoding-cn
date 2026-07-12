@@ -1,0 +1,72 @@
+name: 推荐资源
+description: 推荐值得中文读者阅读的 Vibe Coding、AI 编程与智能体工程资源
+title: "[资源推荐] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请提交可公开访问、可核验的原始页面，不要提交搜索结果、转载页、登录墙或带跟踪参数的链接。
+
+  - type: input
+    id: source_url
+    attributes:
+      label: 原文 URL
+      description: 请填写官方页面、代码仓库、论文原文、作者原帖或社区原帖的 HTTPS 链接。
+      placeholder: https://example.com/original-resource
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      description: 若现有分类不合适，请选择“其他或新分类”并在推荐理由中说明分类边界。
+      options:
+        - Agent 技能（skills）
+        - 开源项目（repos）
+        - 工具（tools）
+        - 公司与产品（companies）
+        - 文章（articles）
+        - 教程（tutorials）
+        - 社区（community）
+        - 研究（research）
+        - 其他或新分类
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐理由
+      description: 请说明资源解决的问题、可核验的事实或方法，以及它对中文读者的独特价值。
+      placeholder: 请勿只写“很有用”或复制宣传文案。
+    validations:
+      required: true
+
+  - type: input
+    id: published_at
+    attributes:
+      label: 原文发布日期
+      description: 使用 YYYY-MM-DD；若页面未提供日期，请填写“未知”，不要根据 URL 或搜索摘要猜测。
+      placeholder: 2026-07-13 或 未知
+    validations:
+      required: true
+
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: 利益关系披露
+      description: 请说明你是否为作者、维护者、员工、投资者或受赞助方；没有关系请明确填写“无”。
+      placeholder: 无；或说明与该资源、作者或组织的关系。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索 README 和 data/resources.yaml，未发现相同 URL、标题、项目或事件。
+          required: true
+        - label: 该链接可公开访问，不需要账号、Cookie、付费订阅或绕过访问限制。
+          required: true
