@@ -974,19 +974,6 @@ resources:
     tags: [v2ex, debate, engineering]
     featured: false
 
-  - id: v2ex-realtime-failure
-    title_zh: Vibe Coding 难解音画同步问题
-    title_original: Vibe Coding 一时爽，一直 Vibe Coding 呢？
-    url: https://www.v2ex.com/t/1215040
-    category: community
-    source: V2EX · dsd2077
-    published_at: 2026-05-24
-    added_at: 2026-07-13
-    language: zh
-    summary_zh: 以音画同步失败说明底层复杂问题不能靠反复抽取答案，应先理解核心链路再用 AI 加速。
-    tags: [v2ex, failure, debugging]
-    featured: false
-
   - id: v2ex-tool-comparison
     title_zh: 中文社区 AI 编程工具实用对比
     title_original: AI 编程工具大家实际使用中哪个综合下来最好用？
