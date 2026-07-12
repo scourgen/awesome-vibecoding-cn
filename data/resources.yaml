@@ -11,4 +11,3 @@ resources:
     summary_zh: Anthropic 的终端编程代理仓库，包含安装说明、使用入口与问题反馈渠道。
     tags: [agent, cli]
     featured: true
-
