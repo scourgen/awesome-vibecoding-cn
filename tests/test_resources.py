@@ -48,6 +48,13 @@ def test_v1_has_broad_coverage() -> None:
     assert sum(item.featured for item in resources) >= 12
 
 
+def test_metr_publication_date_matches_arxiv_submission() -> None:
+    resources = load_resources(Path("data/resources.yaml"))
+    metr = next(item for item in resources if item.id == "metr-productivity")
+
+    assert metr.published_at == date(2025, 7, 12)
+
+
 def test_duplicate_urls_are_rejected(tmp_path: Path) -> None:
     data = tmp_path / "resources.yaml"
     data.write_text(

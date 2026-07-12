@@ -14,6 +14,7 @@ START_MARKER = "<!-- AWESOME-VIBE:START -->"
 END_MARKER = "<!-- AWESOME-VIBE:END -->"
 README_PATH = Path("README.md")
 DATA_PATH = Path("data/resources.yaml")
+RECENT_LIMIT = 10
 
 CATEGORY_LABELS = {
     "skills": "Agent 技能",
@@ -53,23 +54,48 @@ def _category_label(category: str) -> str:
     return readable.title() or "其他"
 
 
+def _heading_anchor(label: str) -> str:
+    anchor = re.sub(r"[^\w\- ]", "", label.casefold())
+    return re.sub(r" +", "-", anchor.strip())
+
+
+def _render_resource(resource: Resource) -> str:
+    source = resource.source
+    if resource.published_at is not None:
+        source = f"{source} · {resource.published_at.isoformat()}"
+    marker = "⭐ **精选** " if resource.featured else ""
+    return f"- {marker}[{resource.title_zh}]({resource.url}) — {resource.summary_zh}（{source}）"
+
+
 def render_resources(resources: list[Resource]) -> str:
+    categories = sorted({resource.category for resource in resources}, key=_category_sort_key)
+    directory = ["## 分类目录", ""]
+    directory.extend(
+        f"- [{_category_label(category)}](#{_heading_anchor(_category_label(category))})"
+        for category in categories
+    )
+
+    recent_resources = sorted(
+        (resource for resource in resources if resource.published_at is not None),
+        key=lambda resource: (
+            -resource.published_at.toordinal(),
+            resource.title_zh,
+            resource.id,
+            resource.url,
+        ),
+    )[:RECENT_LIMIT]
+    recent = ["## 最近更新", "", *(_render_resource(resource) for resource in recent_resources)]
+
     sections: list[str] = []
-    for category in sorted({resource.category for resource in resources}, key=_category_sort_key):
+    for category in categories:
         category_resources = sorted(
             (resource for resource in resources if resource.category == category), key=_sort_key
         )
         label = _category_label(category)
         lines = [f"## {label}", ""]
-        for resource in category_resources:
-            source = resource.source
-            if resource.published_at is not None:
-                source = f"{source} · {resource.published_at.isoformat()}"
-            lines.append(
-                f"- [{resource.title_zh}]({resource.url}) — {resource.summary_zh}（{source}）"
-            )
+        lines.extend(_render_resource(resource) for resource in category_resources)
         sections.append("\n".join(lines))
-    return "\n\n".join(sections) + "\n"
+    return "\n\n".join(["\n".join(directory), "\n".join(recent), *sections]) + "\n"
 
 
 def replace_generated_section(readme: str, rendered: str) -> str:

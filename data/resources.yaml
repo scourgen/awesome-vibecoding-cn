@@ -1149,7 +1149,7 @@ resources:
     url: https://arxiv.org/abs/2507.09089
     category: research
     source: Joel Becker 等
-    published_at: 2025-07-10
+    published_at: 2025-07-12
     added_at: 2026-07-13
     language: en
     summary_zh: 随机对照实验发现特定早期工具让成熟仓库的资深维护者平均变慢，结论不应泛化到所有场景。
