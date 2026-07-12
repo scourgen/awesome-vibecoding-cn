@@ -117,14 +117,26 @@ def test_url_normalization_removes_common_click_identifiers() -> None:
     assert any("duplicate URL" in error for error in errors)
 
 
-def test_unknown_categories_are_rejected() -> None:
-    errors = validate_resources([make_resource(category="unknown")])
-    assert any("unknown category" in error for error in errors)
+def test_new_categories_are_allowed() -> None:
+    assert validate_resources([make_resource(category="case-studies")]) == []
+
+
+def test_titles_must_be_nonempty_and_contain_cjk() -> None:
+    empty_errors = validate_resources([make_resource(title_zh="  ")])
+    english_errors = validate_resources([make_resource(title_zh="English only")])
+
+    assert any("empty title_zh" in error for error in empty_errors)
+    assert any("title_zh must contain CJK" in error for error in english_errors)
 
 
 def test_empty_summaries_are_rejected() -> None:
     errors = validate_resources([make_resource(summary_zh="  ")])
     assert any("empty summary" in error for error in errors)
+
+
+def test_summaries_must_contain_cjk() -> None:
+    errors = validate_resources([make_resource(summary_zh="English only.")])
+    assert any("summary_zh must contain CJK" in error for error in errors)
 
 
 def test_summaries_must_end_with_a_period() -> None:

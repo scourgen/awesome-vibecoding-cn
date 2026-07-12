@@ -7,9 +7,6 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import yaml
 
-ALLOWED_CATEGORIES = frozenset(
-    {"skills", "repos", "tools", "companies", "articles", "tutorials", "community", "research"}
-)
 REQUIRED_FIELDS = (
     "id",
     "title_zh",
@@ -24,6 +21,15 @@ REQUIRED_FIELDS = (
     "featured",
 )
 TRACKING_PARAMETERS = frozenset({"urlsource", "fbclid", "gclid"})
+
+
+def _contains_cjk(value: str) -> bool:
+    return any(
+        "\u3400" <= character <= "\u4dbf"
+        or "\u4e00" <= character <= "\u9fff"
+        or "\uf900" <= character <= "\ufaff"
+        for character in value
+    )
 
 
 @dataclass(frozen=True, slots=True)
@@ -111,12 +117,17 @@ def validate_resources(resources: list[Resource]) -> list[str]:
         if resource.added_at > today:
             errors.append(f"{label}: future added_at: {resource.added_at.isoformat()}")
 
-        if resource.category not in ALLOWED_CATEGORIES:
-            errors.append(f"{label}: unknown category: {resource.category!r}")
+        title = resource.title_zh.strip()
+        if not title:
+            errors.append(f"{label}: empty title_zh")
+        elif not _contains_cjk(title):
+            errors.append(f"{label}: title_zh must contain CJK characters")
 
         summary = resource.summary_zh.strip()
         if not summary:
             errors.append(f"{label}: empty summary")
+        elif not _contains_cjk(summary):
+            errors.append(f"{label}: summary_zh must contain CJK characters")
         elif not summary.endswith(("。", ".")):
             errors.append(f"{label}: summary must end with a Chinese or English period")
 

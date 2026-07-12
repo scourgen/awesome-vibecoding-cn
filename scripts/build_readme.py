@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import tempfile
 from datetime import date
 from pathlib import Path
@@ -26,19 +27,39 @@ CATEGORY_LABELS = {
 }
 
 
-def _sort_key(resource: Resource) -> tuple[int, int, int, str]:
+def _sort_key(resource: Resource) -> tuple[int, int, int, str, str, str]:
     published = resource.published_at or date.min
-    return (-int(resource.featured), -published.toordinal(), -resource.added_at.toordinal(), resource.title_zh)
+    return (
+        -int(resource.featured),
+        -published.toordinal(),
+        -resource.added_at.toordinal(),
+        resource.title_zh,
+        resource.id,
+        resource.url,
+    )
+
+
+def _category_sort_key(category: str) -> tuple[int, int, str, str]:
+    known_categories = tuple(CATEGORY_LABELS)
+    if category in CATEGORY_LABELS:
+        return (0, known_categories.index(category), "", "")
+    return (1, len(known_categories), category.casefold(), category)
+
+
+def _category_label(category: str) -> str:
+    if category in CATEGORY_LABELS:
+        return CATEGORY_LABELS[category]
+    readable = re.sub(r"[^0-9A-Za-z\u3400-\u9fff]+", " ", category).strip()
+    return readable.title() or "其他"
 
 
 def render_resources(resources: list[Resource]) -> str:
     sections: list[str] = []
-    for category, label in CATEGORY_LABELS.items():
+    for category in sorted({resource.category for resource in resources}, key=_category_sort_key):
         category_resources = sorted(
             (resource for resource in resources if resource.category == category), key=_sort_key
         )
-        if not category_resources:
-            continue
+        label = _category_label(category)
         lines = [f"## {label}", ""]
         for resource in category_resources:
             source = resource.source

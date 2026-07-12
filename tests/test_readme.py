@@ -8,8 +8,20 @@ from scripts.resource_model import load_resources
 
 
 def test_render_is_deterministic() -> None:
-    resources = load_resources(Path("data/resources.yaml"))
+    resource = load_resources(Path("data/resources.yaml"))[0]
+    new_category = replace(
+        resource,
+        id="case-study",
+        title_zh="案例研究",
+        url="https://example.com/case-study",
+        category="case-studies",
+        featured=False,
+    )
+    resources = [resource, new_category]
+
     assert render_resources(resources) == render_resources(list(reversed(resources)))
+    assert "## Case Studies" in render_resources(resources)
+    assert "[案例研究](https://example.com/case-study)" in render_resources(resources)
 
 
 def test_readme_is_in_sync() -> None:
