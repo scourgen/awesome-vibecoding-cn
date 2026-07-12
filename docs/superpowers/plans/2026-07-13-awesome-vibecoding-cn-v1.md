@@ -55,8 +55,29 @@ def test_seed_resources_are_valid() -> None:
 
 def test_duplicate_urls_are_rejected(tmp_path: Path) -> None:
     data = tmp_path / "resources.yaml"
-    data.write_text("resources: []\n", encoding="utf-8")
-    assert load_resources(data) == []
+    data.write_text(
+        """resources:
+  - &item
+    id: one
+    title_zh: 示例资源
+    title_original: Example
+    url: https://example.com/post?utm_source=test
+    category: articles
+    source: Example
+    published_at: 2026-01-01
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 这是一个用于验证重复链接检测的示例资源。
+    tags: [example]
+    featured: false
+  - <<: *item
+    id: two
+    url: https://example.com/post#section
+""",
+        encoding="utf-8",
+    )
+    errors = validate_resources(load_resources(data))
+    assert any("duplicate URL" in error for error in errors)
 ```
 
 - [ ] **Step 2: 运行测试确认因模块不存在而失败**
