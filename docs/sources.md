@@ -6,7 +6,7 @@
 
 ## 官方与作者来源
 
-种子来源包括 OpenAI、Anthropic、Google、GitHub、Microsoft、AWS、Cloudflare、Vercel、Sourcegraph、JetBrains、Cursor、Replit、Lovable、国内模型与 AI Coding 厂商的官方文档、工程博客、更新日志、安全公告，以及独立作者的原始博客。
+种子来源包括 OpenAI、Anthropic、Google、GitHub、Microsoft、AWS、Cloudflare、Vercel、Sourcegraph、JetBrains、Cursor、Replit、Lovable、国内模型与 AI Coding 厂商的官方文档、工程博客、更新日志、安全公告，以及 Simon Willison 等独立作者的原始博客。
 
 推荐搜索式：
 
@@ -15,10 +15,11 @@ site:官方域名 (agent OR coding OR Codex OR "vibe coding") after:YYYY-MM-DD
 site:官方域名 (release OR changelog OR security OR benchmark) after:YYYY-MM-DD
 site:sourcegraph.com/blog ("coding agent" OR "agentic coding" OR "large codebase") after:YYYY-MM-DD
 site:blog.jetbrains.com (Junie OR "coding agent" OR ACP OR benchmark) after:YYYY-MM-DD
+site:simonwillison.net ("coding agents" OR "agentic engineering" OR "Claude Code") after:YYYY-MM-DD
 "项目名" (announcement OR documentation OR migration OR deprecation)
 ```
 
-限制：官方页面最适合核验产品状态，但其中的性能、效率、市场地位和安全宣称仍属于厂商表述。文档可能静默更新；记录可见发布日期或核验日期，必要时查公告或 Release 交叉确认。Sourcegraph 与 JetBrains 的文章可能同时包含工程经验、产品定位或自有基准结论，应分开转述并保留样本、评测周期与厂商归属。
+限制：官方页面最适合核验产品状态，但其中的性能、效率、市场地位和安全宣称仍属于厂商表述。文档可能静默更新；记录可见发布日期或核验日期，必要时查公告或 Release 交叉确认。Sourcegraph 与 JetBrains 的文章可能同时包含工程经验、产品定位或自有基准结论，应分开转述并保留样本、评测周期与厂商归属。Simon Willison 的文章常附提示词、会话或代码记录，适合发现真实工程案例；其中的成本估算和效果判断仍应归因于作者。
 
 ## 代码托管与项目生态
 

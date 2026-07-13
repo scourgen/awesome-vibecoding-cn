@@ -24,16 +24,16 @@
 
 ## 最近更新
 
+- ⭐ **精选** [CLI 编程智能体失败轨迹的过程分析](https://arxiv.org/abs/2607.09510) — 研究分析 Terminal-Bench 上七个模型、三个脚手架的 3843 条轨迹，并人工标注六万余步骤，指出失败常由早期认知错误启动并延迟暴露。（Xiangxin Zhao 等 · 2026-07-10）
+- ⭐ **精选** [SLBench 智能体技能逻辑关系遵循基准](https://arxiv.org/abs/2607.09016) — SLBench 扫描五千余个公开技能并构造 86 个可执行案例，测试 Codex 与 Claude Code 对前置条件、约束和回退关系的遵循及安全失效。（Jifan Zhang 等 · 2026-07-10）
+- [软件工程 Agent Skills 市场实证研究](https://arxiv.org/abs/2607.09065) — 论文对公共仓库与市场中的软件工程 Skills 做大规模实证分析，考察生命周期覆盖、演化和评估机制，描绘技能复用生态而非评价单个工具。（Jialun Cao 等 · 2026-07-10）
+- [SCATE 面向测试生成的自适应智能体监督](https://arxiv.org/abs/2607.08983) — SCATE 将测试生成监督建模为上下文赌博机，依据覆盖率和可测试性选择下一步动作；论文报告其在特定 Gemini CLI 实验中提升覆盖率。（Sijia Gu 等 · 2026-07-09）
 - [GitHub Copilot 在 VS Code 的 2026 年 6 月更新](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/) — 官方汇总集成浏览器、并行会话、费用可见性、外部模型提供方和长上下文等更新，适合核对当前代理工作流能力。（GitHub Changelog · 2026-07-08）
+- ⭐ **精选** [用多智能体工作流将 Bun 从 Zig 重写为 Rust](https://bun.com/blog/bun-in-rust) — Jarred Sumner 复盘用约 50 个动态工作流、对抗审查和完整测试迁移 53 万行 Zig；工期、并发规模与成本均为作者报告。（Bun · 2026-07-08）
+- [JetBrains Copilot 预览 Codex 提供方与智能体增强](https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides/) — GitHub 宣布在 JetBrains Copilot 中预览 Codex 智能体提供方，并扩展 Hooks、MCP 管理和审批设置，呈现 IDE 内多智能体工作流的整合方向。（GitHub Changelog · 2026-07-07）
 - [JetBrains 团队级 AI 编程治理实践](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) — 官方介绍团队如何统一管理模型、智能体、访问权限、使用分析和成本；其中效果与治理价值属于厂商观点。（JetBrains · 2026-07-07）
-- ⭐ **精选** [微软命令行 AI 编程智能体采用与影响研究](https://arxiv.org/abs/2607.01418) — 研究分析微软内部数万名开发者的早期推广数据，采用者合并 PR 数提高约 24%，但作者明确指出该指标不等同于实际价值。（Emerson Murphy-Hill 等 · 2026-07-01）
-- [V2EX：两年 Vibe Coding 经历与使用方式反思](https://v2ex.com/t/1221657) — 作者结合个人和身边开发者经历，区分完全委托、协同增强与轻量使用，呈现不同能力基础下的收益和风险判断。（SoraStar · 2026-06-20）
-- [AI 编程普及率的信息茧房](https://www.v2ex.com/t/1221461) — 通过自由职业者和回复者的个人经历提醒读者，技术社区热度不等于全行业普及率，可用于观察实践经验、分歧与具体使用边界。（V2EX · NotAfraidLP · 2026-06-19）
-- [立场论文：现有编程基准与实际开发目标错位](https://arxiv.org/abs/2606.17799) — 作者认为现有评测混合模型、工具链和环境效果，并依赖单一参考解法，建议增加组件级信号与真实工作流评估。（Maria I. Gorinova 等 · 2026-06-16）
-- [Reddit：用确定性脚本替代不必要的模型调用](https://www.reddit.com/r/vibecoding/comments/1u2z798/after_10_years_as_an_engineer_the_thing_id_teach/) — 帖子主张将可重复的解析、校验和转换固化为确定性工具，减少智能体反复消耗上下文和模型调用的成本。（r/vibecoding · 2026-06-11）
-- [V2EX：半年 Vibe Coding 的效率与疲劳体验](https://www.v2ex.com/t/1219408) — 作者记录交付速度提升之外的审查疲劳、成就感下降和规格维护成本，评论区也补充了不同开发者的应对方式。（coderYang · 2026-06-10）
-- ⭐ **精选** [Vibe Coding 生产项目实践讨论](https://linux.do/t/topic/2360067) — 针对老项目失控问题讨论 SDD、TDD、灰度、备份、多模型互审和人工评审，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · eof_karel · 2026-06-10）
-- [一个未能实现的 Vibe Coding Harness](https://linux.do/t/topic/2306363) — 尝试用意图分析、提示质量记录和上下文注入降低门槛，并坦诚保留无法实现的结论，可用于观察实践经验、分歧与具体使用边界。（LINUX DO · Soei · 2026-06-04）
+- [Claude Fable 协助 sqlite-utils 发布前审查实践](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/) — Simon Willison 公开提示词、修复记录和会话成本，展示智能体如何在发布前发现事务缺陷，并由人工复核实验与改动。（Simon Willison · 2026-07-05）
+- [更强模型为何可能更不适配第三方工具](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) — Armin Ronacher 记录新 Claude 模型在 Pi 嵌套编辑工具中虚构字段的案例，并推测模型后训练可能偏向特定 Harness；结论属于作者观察。（Armin Ronacher · 2026-07-04）
 
 ## Agent 技能
 
@@ -68,6 +68,7 @@
 - [Continue 开源 IDE 编程平台](https://github.com/continuedev/continue) — 支持自定义模型、上下文提供器、规则和智能体工作流，适合自托管与企业定制，便于读者核对其能力范围、使用方式与维护入口。（Continue · 2023-05-24）
 - [Aider 终端 AI 结对编程工具](https://github.com/Aider-AI/aider) — 以 Git、代码地图和终端对话为核心，提供成熟的多模型结对编程工作流，便于读者核对其能力范围、使用方式与维护入口。（Aider · 2023-05-09）
 - [AhaDiff 基于代码差异的复盘学习工具](https://github.com/AGI-is-going-to-arrive/ahadiff) — 本地优先地分析 AI 生成的 Git 差异，将具体改动转成带证据的讲解、测验和复习材料，帮助开发者理解已合入代码。（AhaDiff）
+- [Simon Willison 的模型无关编程智能体](https://github.com/simonw/llm-coding-agent) — 该项目基于 LLM 插件系统构建模型无关的编程智能体，提供受根目录限制的读写、搜索、命令执行、审批和会话恢复能力。（Simon Willison）
 
 ## 工具
 
@@ -99,15 +100,23 @@
 
 ## 文章
 
+- ⭐ **精选** [用多智能体工作流将 Bun 从 Zig 重写为 Rust](https://bun.com/blog/bun-in-rust) — Jarred Sumner 复盘用约 50 个动态工作流、对抗审查和完整测试迁移 53 万行 Zig；工期、并发规模与成本均为作者报告。（Bun · 2026-07-08）
+- ⭐ **精选** [Anthropic 跨产品智能体隔离与安全边界](https://www.anthropic.com/engineering/how-we-contain-claude) — 官方复盘 claude.ai、Claude Code 与 Cowork 的容器、沙箱和虚拟机隔离方案，并披露审批疲劳、配置预加载与出口控制等失效案例。（Anthropic Engineering · 2026-05-25）
+- ⭐ **精选** [长时间应用开发的三智能体 Harness 设计](https://www.anthropic.com/engineering/harness-design-long-running-apps) — Anthropic 工程师以规划、生成和评估三类智能体拆分长任务，通过结构化交接与独立验收缓解上下文衰减和自我评价偏宽的问题。（Anthropic Engineering · 2026-03-24）
 - ⭐ **精选** [Harness Engineering 智能体优先代码库实践](https://openai.com/index/harness-engineering/) — 总结仓库可读性、约束、反馈回路、文档结构和持续熵管理等智能体工程经验，可用于了解相关方法、背景与工程适用边界。（OpenAI · 2026-02-11）
 - ⭐ **精选** [Claude Code 智能体编程最佳实践](https://www.anthropic.com/engineering/claude-code-best-practices) — 系统讲解项目指令、探索与计划、测试驱动开发、上下文管理和独立审查，可用于了解相关方法、背景与工程适用边界。（Anthropic Engineering · 2025-04-18）
 - ⭐ **精选** [别把所有 AI 辅助编程都叫 Vibe Coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) — 区分忽略代码细节的原始 Vibe Coding 与工程师审阅、理解并负责的 AI 辅助开发。（Simon Willison · 2025-03-19）
 - [GitHub Copilot 在 VS Code 的 2026 年 6 月更新](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/) — 官方汇总集成浏览器、并行会话、费用可见性、外部模型提供方和长上下文等更新，适合核对当前代理工作流能力。（GitHub Changelog · 2026-07-08）
+- [JetBrains Copilot 预览 Codex 提供方与智能体增强](https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides/) — GitHub 宣布在 JetBrains Copilot 中预览 Codex 智能体提供方，并扩展 Hooks、MCP 管理和审批设置，呈现 IDE 内多智能体工作流的整合方向。（GitHub Changelog · 2026-07-07）
 - [JetBrains 团队级 AI 编程治理实践](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) — 官方介绍团队如何统一管理模型、智能体、访问权限、使用分析和成本；其中效果与治理价值属于厂商观点。（JetBrains · 2026-07-07）
+- [Claude Fable 协助 sqlite-utils 发布前审查实践](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/) — Simon Willison 公开提示词、修复记录和会话成本，展示智能体如何在发布前发现事务缺陷，并由人工复核实验与改动。（Simon Willison · 2026-07-05）
+- [更强模型为何可能更不适配第三方工具](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) — Armin Ronacher 记录新 Claude 模型在 Pi 嵌套编辑工具中虚构字段的案例，并推测模型后训练可能偏向特定 Harness；结论属于作者观察。（Armin Ronacher · 2026-07-04）
 - [百度文心快码 2026 年智能体能力更新日志](https://cloud.baidu.com/doc/COMATE/s/2mjzerjsp) — 1.9.0 版加入异步子智能体、记忆、自动化、插件创建和 Skills 选择器，页面可用于持续追踪后续版本变化。（百度智能云 · 2026-06-01）
 - [Gemini Code Assist 负责任 AI 指南](https://developers.google.com/gemini-code-assist/docs/responsible-ai) — 说明幻觉、偏差、安全过滤和有限领域能力，并强调生成代码必须经过人工审核，可用于了解相关方法、背景与工程适用边界。（Google · 2026-05-27）
 - [Sourcegraph 的大型代码库 Agentic Coding 指南](https://sourcegraph.com/blog/agentic-coding) — 文章从大型组织和复杂代码库出发，讨论上下文获取、工具接入与审查边界，补充个人项目之外的工程实践视角。（Matt Tanner · 2026-05-21）
 - [Symphony 项目看板智能体编排规范](https://openai.com/index/open-source-codex-orchestration-symphony/) — 将项目管理看板变成编程智能体控制面，用工作队列缓解多任务上下文切换，可用于了解相关方法、背景与工程适用边界。（OpenAI · 2026-04-27）
+- [Claude Code 质量下降事件复盘](https://www.anthropic.com/engineering/april-23-postmortem) — 官方将近期质量问题追溯到默认推理强度、闲置会话思考清理和系统提示三项变更，并说明修复时间与后续发布流程调整。（Anthropic Engineering · 2026-04-23）
+- [Claude Code 自动模式的两阶段安全审核](https://www.anthropic.com/engineering/claude-code-auto-mode) — 官方说明 Claude Code 自动模式如何用两阶段分类器审核高风险工具调用，并公开误拦截与漏检数据，强调它不能替代高风险场景的人类复核。（Anthropic Engineering · 2026-03-25）
 - [Cursor 如何用自主 Agent 守护代码库](https://cursor.com/blog/security-agents) — 展示持续安全审查、漏洞发现、依赖更新和不变量检查等可复用智能体模板，可用于了解相关方法、背景与工程适用边界。（Cursor · 2026-03-16）
 - [AI 编码实践：从 Vibe Coding 到 SDD](https://zhuanlan.zhihu.com/p/2001605764670833810) — 淘特导购团队复盘从补全、智能体与规则演进到轻量规格驱动开发的工程方案，可用于了解相关方法、背景与工程适用边界。（阿里云开发者）
 - [Lovable 应用安全总览](https://docs.lovable.dev/features/security) — 覆盖密钥防泄漏、行级安全、数据库、代码和依赖扫描以及发布前检查，可用于了解相关方法、背景与工程适用边界。（Lovable）
@@ -147,6 +156,8 @@
 
 ## 研究
 
+- ⭐ **精选** [CLI 编程智能体失败轨迹的过程分析](https://arxiv.org/abs/2607.09510) — 研究分析 Terminal-Bench 上七个模型、三个脚手架的 3843 条轨迹，并人工标注六万余步骤，指出失败常由早期认知错误启动并延迟暴露。（Xiangxin Zhao 等 · 2026-07-10）
+- ⭐ **精选** [SLBench 智能体技能逻辑关系遵循基准](https://arxiv.org/abs/2607.09016) — SLBench 扫描五千余个公开技能并构造 86 个可执行案例，测试 Codex 与 Claude Code 对前置条件、约束和回退关系的遵循及安全失效。（Jifan Zhang 等 · 2026-07-10）
 - ⭐ **精选** [微软命令行 AI 编程智能体采用与影响研究](https://arxiv.org/abs/2607.01418) — 研究分析微软内部数万名开发者的早期推广数据，采用者合并 PR 数提高约 24%，但作者明确指出该指标不等同于实际价值。（Emerson Murphy-Hill 等 · 2026-07-01）
 - ⭐ **精选** [AI 编程工具生产力与学习效果元分析](https://arxiv.org/abs/2605.04779) — 元分析汇总 23 项研究和 27 个效应量，发现生产力有中等正向效应且异质性明显，学习效果则未达到统计显著。（Sebastian Maier 等 · 2026-05-06）
 - ⭐ **精选** [SlopCodeBench 长期代码退化基准](https://arxiv.org/abs/2603.24755) — 让智能体连续响应变化需求，衡量代码冗余和结构侵蚀如何随多轮迭代增长，便于核对任务设计、评估方法与结论适用范围。（Gabriel Orlanski 等 · 2026-03-25）
@@ -154,6 +165,8 @@
 - ⭐ **精选** [SecureAgentBench 安全编码基准](https://arxiv.org/abs/2509.22097) — 用真实漏洞场景的多文件任务同时检查功能、已知漏洞和新引入的安全问题，便于核对任务设计、评估方法与结论适用范围。（Junkai Chen 等 · 2025-09-26）
 - ⭐ **精选** [早期 2025 AI 工具对资深开发者生产力的影响](https://arxiv.org/abs/2507.09089) — 随机对照实验发现特定早期工具让成熟仓库的资深维护者平均变慢，结论不应泛化到所有场景。（Joel Becker 等 · 2025-07-12）
 - ⭐ **精选** [SWE-bench 真实软件工程基准](https://www.swebench.com/original.html) — 要求模型依据真实 GitHub Issue 修改完整仓库并通过测试，奠定现代编程智能体评价方式。（Carlos E. Jimenez 等）
+- [软件工程 Agent Skills 市场实证研究](https://arxiv.org/abs/2607.09065) — 论文对公共仓库与市场中的软件工程 Skills 做大规模实证分析，考察生命周期覆盖、演化和评估机制，描绘技能复用生态而非评价单个工具。（Jialun Cao 等 · 2026-07-10）
+- [SCATE 面向测试生成的自适应智能体监督](https://arxiv.org/abs/2607.08983) — SCATE 将测试生成监督建模为上下文赌博机，依据覆盖率和可测试性选择下一步动作；论文报告其在特定 Gemini CLI 实验中提升覆盖率。（Sijia Gu 等 · 2026-07-09）
 - [立场论文：现有编程基准与实际开发目标错位](https://arxiv.org/abs/2606.17799) — 作者认为现有评测混合模型、工具链和环境效果，并依赖单一参考解法，建议增加组件级信号与真实工作流评估。（Maria I. Gorinova 等 · 2026-06-16）
 - [Agentic Agile-V 可审计智能体开发框架](https://arxiv.org/abs/2605.20456) — 论文提出 SCOPE-V 生命周期，将规格、约束、编排、证据、演进和验证串联，并在关键节点保留人工审批。（Christopher Koch · 2026-05-19）
 - [Mise en Place 智能体上下文工程方法](https://arxiv.org/abs/2605.05400) — 框架将开发前准备拆为上下文奠基、协作式规格和任务分解三阶段，强调在调用智能体之前先构造可验证的工作环境。（Andrew Zigler · 2026-05-06）

@@ -1363,3 +1363,172 @@ resources:
     summary_zh: 框架将开发前准备拆为上下文奠基、协作式规格和任务分解三阶段，强调在调用智能体之前先构造可验证的工作环境。
     tags: [context-engineering, workflow, specification]
     featured: false
+
+  - id: anthropic-contain-claude
+    title_zh: Anthropic 跨产品智能体隔离与安全边界
+    title_original: "How we contain Claude across products"
+    url: https://www.anthropic.com/engineering/how-we-contain-claude
+    category: articles
+    source: Anthropic Engineering
+    published_at: 2026-05-25
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方复盘 claude.ai、Claude Code 与 Cowork 的容器、沙箱和虚拟机隔离方案，并披露审批疲劳、配置预加载与出口控制等失效案例。
+    tags: [security, sandbox, agents]
+    featured: true
+
+  - id: claude-code-auto-mode
+    title_zh: Claude Code 自动模式的两阶段安全审核
+    title_original: "How we built Claude Code auto mode: a safer way to skip permissions"
+    url: https://www.anthropic.com/engineering/claude-code-auto-mode
+    category: articles
+    source: Anthropic Engineering
+    published_at: 2026-03-25
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方说明 Claude Code 自动模式如何用两阶段分类器审核高风险工具调用，并公开误拦截与漏检数据，强调它不能替代高风险场景的人类复核。
+    tags: [claude-code, permissions, security]
+    featured: false
+
+  - id: anthropic-long-running-harness
+    title_zh: 长时间应用开发的三智能体 Harness 设计
+    title_original: "Harness design for long-running application development"
+    url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+    category: articles
+    source: Anthropic Engineering
+    published_at: 2026-03-24
+    added_at: 2026-07-13
+    language: en
+    summary_zh: Anthropic 工程师以规划、生成和评估三类智能体拆分长任务，通过结构化交接与独立验收缓解上下文衰减和自我评价偏宽的问题。
+    tags: [harness, multi-agent, evaluation]
+    featured: true
+
+  - id: claude-code-quality-postmortem
+    title_zh: Claude Code 质量下降事件复盘
+    title_original: "An update on recent Claude Code quality reports"
+    url: https://www.anthropic.com/engineering/april-23-postmortem
+    category: articles
+    source: Anthropic Engineering
+    published_at: 2026-04-23
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 官方将近期质量问题追溯到默认推理强度、闲置会话思考清理和系统提示三项变更，并说明修复时间与后续发布流程调整。
+    tags: [claude-code, postmortem, reliability]
+    featured: false
+
+  - id: bun-rust-agent-rewrite
+    title_zh: 用多智能体工作流将 Bun 从 Zig 重写为 Rust
+    title_original: "Rewriting Bun in Rust"
+    url: https://bun.com/blog/bun-in-rust
+    category: articles
+    source: Bun
+    published_at: 2026-07-08
+    added_at: 2026-07-13
+    language: en
+    summary_zh: Jarred Sumner 复盘用约 50 个动态工作流、对抗审查和完整测试迁移 53 万行 Zig；工期、并发规模与成本均为作者报告。
+    tags: [case-study, claude-code, multi-agent]
+    featured: true
+
+  - id: sqlite-utils-fable-case-study
+    title_zh: Claude Fable 协助 sqlite-utils 发布前审查实践
+    title_original: "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
+    url: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/
+    category: articles
+    source: Simon Willison
+    published_at: 2026-07-05
+    added_at: 2026-07-13
+    language: en
+    summary_zh: Simon Willison 公开提示词、修复记录和会话成本，展示智能体如何在发布前发现事务缺陷，并由人工复核实验与改动。
+    tags: [case-study, claude-code, code-review]
+    featured: false
+
+  - id: github-copilot-jetbrains-codex
+    title_zh: JetBrains Copilot 预览 Codex 提供方与智能体增强
+    title_original: "Codex as agent provider and agentic enhancements in JetBrains IDEs"
+    url: https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides/
+    category: articles
+    source: GitHub Changelog
+    published_at: 2026-07-07
+    added_at: 2026-07-13
+    language: en
+    summary_zh: GitHub 宣布在 JetBrains Copilot 中预览 Codex 智能体提供方，并扩展 Hooks、MCP 管理和审批设置，呈现 IDE 内多智能体工作流的整合方向。
+    tags: [copilot, codex, jetbrains]
+    featured: false
+
+  - id: better-models-worse-tools
+    title_zh: 更强模型为何可能更不适配第三方工具
+    title_original: "Better Models: Worse Tools"
+    url: https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
+    category: articles
+    source: Armin Ronacher
+    published_at: 2026-07-04
+    added_at: 2026-07-13
+    language: en
+    summary_zh: Armin Ronacher 记录新 Claude 模型在 Pi 嵌套编辑工具中虚构字段的案例，并推测模型后训练可能偏向特定 Harness；结论属于作者观察。
+    tags: [tool-calling, harness, reliability]
+    featured: false
+
+  - id: llm-coding-agent
+    title_zh: Simon Willison 的模型无关编程智能体
+    title_original: "llm-coding-agent"
+    url: https://github.com/simonw/llm-coding-agent
+    category: repos
+    source: Simon Willison
+    published_at:
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 该项目基于 LLM 插件系统构建模型无关的编程智能体，提供受根目录限制的读写、搜索、命令执行、审批和会话恢复能力。
+    tags: [agent, llm, cli]
+    featured: false
+
+  - id: coding-agent-failure-process
+    title_zh: CLI 编程智能体失败轨迹的过程分析
+    title_original: "Failure as a Process: An Anatomy of CLI Coding Agent Trajectories"
+    url: https://arxiv.org/abs/2607.09510
+    category: research
+    source: Xiangxin Zhao 等
+    published_at: 2026-07-10
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 研究分析 Terminal-Bench 上七个模型、三个脚手架的 3843 条轨迹，并人工标注六万余步骤，指出失败常由早期认知错误启动并延迟暴露。
+    tags: [failure-analysis, terminal, agents]
+    featured: true
+
+  - id: skill-market-empirical-study
+    title_zh: 软件工程 Agent Skills 市场实证研究
+    title_original: "Inside the Skill Market: From Software Engineering Activities to Reusable Agent Skills"
+    url: https://arxiv.org/abs/2607.09065
+    category: research
+    source: Jialun Cao 等
+    published_at: 2026-07-10
+    added_at: 2026-07-13
+    language: en
+    summary_zh: 论文对公共仓库与市场中的软件工程 Skills 做大规模实证分析，考察生命周期覆盖、演化和评估机制，描绘技能复用生态而非评价单个工具。
+    tags: [skills, empirical-study, ecosystem]
+    featured: false
+
+  - id: slbench-skill-relations
+    title_zh: SLBench 智能体技能逻辑关系遵循基准
+    title_original: "SLBench: Evaluating How LLM Agents Follow Logical Relations in Skills"
+    url: https://arxiv.org/abs/2607.09016
+    category: research
+    source: Jifan Zhang 等
+    published_at: 2026-07-10
+    added_at: 2026-07-13
+    language: en
+    summary_zh: SLBench 扫描五千余个公开技能并构造 86 个可执行案例，测试 Codex 与 Claude Code 对前置条件、约束和回退关系的遵循及安全失效。
+    tags: [skills, security, benchmark]
+    featured: true
+
+  - id: scate-coding-agent-supervision
+    title_zh: SCATE 面向测试生成的自适应智能体监督
+    title_original: "SCATE: Learning to Supervise Coding Agents for Cost-Effective Test Generation"
+    url: https://arxiv.org/abs/2607.08983
+    category: research
+    source: Sijia Gu 等
+    published_at: 2026-07-09
+    added_at: 2026-07-13
+    language: en
+    summary_zh: SCATE 将测试生成监督建模为上下文赌博机，依据覆盖率和可测试性选择下一步动作；论文报告其在特定 Gemini CLI 实验中提升覆盖率。
+    tags: [testing, supervision, gemini-cli]
+    featured: false
