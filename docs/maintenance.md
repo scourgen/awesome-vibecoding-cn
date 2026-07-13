@@ -8,7 +8,7 @@
 - [ ] 运行 `git status --short`，识别并保留不属于本次任务的现有改动。
 - [ ] 查看 `data/resources.yaml` 的最近 `added_at`、现有 URL、标题、分类、标签和来源。
 - [ ] 明确本次维护日期、搜索截止时间、任务要求的远程与目标分支；未明确推送权限时不擅自推送。
-- [ ] 由主 Agent 定义计划、验收标准和任务边界；批量整理、数据录入和机械实现优先委派给 OpenCode 的 `alibaba-coding-plan-cn/qwen3.7-max`。
+- [ ] 由主 Agent 定义计划、验收标准和任务边界；批量整理、数据录入和机械实现优先委派给 OpenCode 的 `alibaba-coding-plan-cn/qwen3.7-plus`。
 - [ ] 委派时限定可修改文件并指定验证命令；若 OpenCode 或模型不可用，明确记录后由主 Agent 接管，不静默换模型。
 - [ ] 无论是否委派，主 Agent 都必须复核来源、审阅完整 diff、运行全部检查并负责最终发布。
 
